@@ -1,0 +1,37 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles here instead of style.css so it 
+is easier to update the theme. Simply copy an existing 
+style from style.css to this file, and modify it to 
+your liking.
+
+*/
+
+body {
+	line-height: 1.7;
+}
+
+#logo .site-title a {
+	font-family: Georgia,times,"Times New Roman",times-roman,serif;
+	color: #AAA;
+}
+
+.post .title {
+	font-family: Georgia,times,"Times New Roman",times-roman,serif;
+	font-weight: 100;
+	line-height: 1.2;
+}
+
+# Wenn Post ausgwählt:
+h1 .title a {
+	font-weight: 110;
+}
+
+.post .date {
+	background:url("styles/green/date.png") no-repeat scroll left top transparent;
+}
+

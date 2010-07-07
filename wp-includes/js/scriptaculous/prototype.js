@@ -1,0 +1,1 @@
+../../../../javascript/scriptaculous/prototype.js

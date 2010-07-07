@@ -1,0 +1,1 @@
+../../../../javascript/scriptaculous/builder.js
