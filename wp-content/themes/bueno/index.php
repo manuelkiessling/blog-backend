@@ -20,7 +20,7 @@
 
                     <div class="entry">
 			<?php the_excerpt(); ?>
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">Vollständigen Artikel lesen</a>
+			<a class="readmore" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">Vollständigen Artikel lesen</a>
                     </div>
 <!--                    
                     <div class="post-meta">
