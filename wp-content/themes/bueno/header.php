@@ -10,8 +10,6 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
    
 	<!--[if IE 6]>
-		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/pngfix.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/menu.js"></script>
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/ie6.css" />
     <![endif]-->	
 	
@@ -19,7 +17,6 @@
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/ie7.css" />
 	<![endif]-->
    
-<?php if ( is_single() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head(); ?>
 
 <!--
@@ -68,8 +65,6 @@
    
 		<div id="logo" class="fl">
 	       
-	       	<a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('description'); ?>"><img class="title" src="<?php if ( get_option('woo_logo') <> "" ) { echo get_option('woo_logo'); } else { bloginfo('template_directory'); ?>/images/logo.png<?php } ?>" alt="<?php bloginfo('name'); ?>" /></a>
-	      	
 	      	<?php if(is_single() || is_page()) : ?>
 	      		<span class="site-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></span>
 	      	<?php else: ?>
