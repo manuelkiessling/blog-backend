@@ -17,13 +17,16 @@
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/ie7.css" />
 	<![endif]-->
    
-<?php wp_head(); ?>
+<?php // wp_head(); ?>
 
-<!--
-	<script type="text/javascript">
-		Cufon.replace('h1, h2, h3', { fontFamily: 'ChunkFive' });
-	</script>
--->
+<link rel='index' title='The Log Book of Manuel Kiessling' href='/' />
+<!-- <link rel="stylesheet" href="http://disqus.com/stylesheets/thelogbookofmanuelkiessling/disqus.css?v=2.0" type="text/css" media="screen" /> -->
+<link href="/wordpress/wp-content/themes/bueno/styles/grey.css" rel="stylesheet" type="text/css" />
+<link href="/wordpress/wp-content/themes/bueno/custom.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#logo img { display:none; }
+#logo .site-title, #logo .site-description { display:block; } 
+</style>
 
 </head>
 

@@ -37,7 +37,6 @@
 	
 </div><!-- /#container -->
 <?php wp_footer(); ?>
-
 <script type="text/javascript">
 var disqus_shortname = 'thelogbookofmanuelkiessling';
 (function () {
@@ -46,6 +45,5 @@ var disqus_shortname = 'thelogbookofmanuelkiessling';
   (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
 </script>
-
 </body>
 </html>
