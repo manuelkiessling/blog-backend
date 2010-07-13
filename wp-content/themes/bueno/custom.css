@@ -57,23 +57,51 @@ body {
 	background: transparent;
 }
 
-.post .title {
-	font-family: "Palatino Linotype","Book Antiqua",Palatino,Georgia,times,"Times New Roman",times-roman,serif;
-	font-weight: 100;
-	line-height: 1.2;
+#main {
+	background-color: #fff;
+	
 }
 
-# Wenn Post ausgwählt:
-h1 .title a {
-	font-weight: 110;
+.post .title {
+	font-family: Arial, sans-serif;
+	color: #000000;
+	font-size: 16pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	border-bottom: 0;
+	margin: 0;
+}
+
+# Wenn Post ausgewählt:
+.post .title a:link, .post .title a:visited {
+	color: #000000;
+	font-weight: bolder;
 }
 
 .post .date {
 	background:url("styles/green/date.png") no-repeat scroll left top transparent;
 }
 
+.post .date .day {
+	font-size: 26px;
+	line-height: 17px;
+}
+
+.post .date .year  {
+	color: #FFFFFF;
+	left: 20px;
+	position: absolute;
+	top: 37px;
+}
+
 .post {
-	background-color: #fcfcfc;
+	background-color: #fff;
+	border-style: none none dotted;
+	border-width: 0 0 1px;
+	margin: 0;
+	padding-bottom: 100px;
+
 }
 
 .post .entry {
@@ -82,14 +110,25 @@ h1 .title a {
 	font-size: 12pt;
 }
 
+.post .entry a {
+	letter-spacing: -0.6pt;
+}
+
+.entry h3 {
+	#font-family: "Palatino Linotype","Book Antiqua",Palatino,Georgia,times,"Times New Roman",times-roman,serif;
+	color: #000;
+}
+
 a.readmore {
 	font-family: Arial,sans-serif;
 	font-size: 10pt;
+	letter-spacing: 0pt;
 	font-weight: bold;
 }
 
 .more_entries {
-	margin-top: -50px;
+	margin-top: 0;
+	border: 0;
 }
 
 .more_entries a {
@@ -98,6 +137,51 @@ a.readmore {
 	font-size: 10pt;
 	margin-top: 1px;
 }
+
+.archive_header .catrss a {
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #aaa;
+}
+
+#disqus_thread  {
+	font-family: Arial, sans-serif;
+	padding: 7px;
+	background-color: #eee;
+}
+
+#dsq-content .dsq-comment-message {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "Palatino Linotype","Book Antiqua",Palatino,Georgia,times,"Times New Roman",times-roman,serif;;
+	font-size: 12pt;
+	padding: 12px;
+	margin-top: 0;
+}
+
+#sidebar {
+	font-family: Arial,sans-serif;
+	font-size: 10pt;
+}
+
+.widget h3 {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000;
+}
+
+.widget ul li a:link, .widget ul li a:visited  {
+	background: none;
+	border-bottom: 1px solid #ddd;
+	padding-left: 0;
+}
+
+.widget ul li a:hover {
+	font-weight: normal;
+	color: #000;
+}
+
 
 #footer {
 	background-color: transparent;

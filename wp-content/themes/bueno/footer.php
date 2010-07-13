@@ -38,5 +38,14 @@
 </div><!-- /#container -->
 <?php wp_footer(); ?>
 
+<script type="text/javascript">
+var disqus_shortname = 'thelogbookofmanuelkiessling';
+(function () {
+  var s = document.createElement('script'); s.async = true;
+  s.src = 'http://disqus.com/forums/thelogbookofmanuelkiessling/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
 </body>
 </html>

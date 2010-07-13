@@ -6,19 +6,19 @@
             <?php if (have_posts()) : $count = 0; ?>
             
 				<?php if (is_category()) { ?>
-                <span class="archive_header"><span class="fl cat"><?php _e('Archive', 'woothemes'); ?> | <?php echo single_cat_title(); ?></span> <span class="fr catrss"><?php $cat_obj = $wp_query->get_queried_object(); $cat_id = $cat_obj->cat_ID; echo '<a href="'; get_category_rss_link(true, $cat, ''); echo '">RSS feed for this section</a>'; ?></span></span>        
+                <span class="archive_header"><span class="fl cat"><?php _e('Kategorie', 'woothemes'); ?>: <?php echo single_cat_title(); ?></span> <span class="fr catrss"><?php $cat_obj = $wp_query->get_queried_object(); $cat_id = $cat_obj->cat_ID; echo '<a href="'; get_category_rss_link(true, $cat, ''); echo '">RSS Feed für diese Kategorie</a>'; ?></span></span>        
             
                 <?php } elseif (is_day()) { ?>
-                <span class="archive_header"><?php _e('Archive', 'woothemes'); ?> | <?php the_time($GLOBALS['woodate']); ?></span>
+                <span class="archive_header"><?php _e('Kategorie', 'woothemes'); ?>: <?php the_time($GLOBALS['woodate']); ?></span>
     
                 <?php } elseif (is_month()) { ?>
-                <span class="archive_header"><?php _e('Archive', 'woothemes'); ?> | <?php the_time('F, Y'); ?></span>
+                <span class="archive_header"><?php _e('Kategorie', 'woothemes'); ?>: <?php the_time('F, Y'); ?></span>
     
                 <?php } elseif (is_year()) { ?>
-                <span class="archive_header"><?php _e('Archive', 'woothemes'); ?> | <?php the_time('Y'); ?></span>
+                <span class="archive_header"><?php _e('Kategorie', 'woothemes'); ?>: <?php the_time('Y'); ?></span>
     
                 <?php } elseif (is_author()) { ?>
-                <span class="archive_header"><?php _e('Archive by Author', 'woothemes'); ?></span>
+                <span class="archive_header"><?php _e('Archiv by Author', 'woothemes'); ?></span>
     
                 <?php } elseif (is_tag()) { ?>
                 <span class="archive_header"><?php _e('Tag Archives:', 'woothemes'); ?> <?php echo single_tag_title('', true); ?></span>
@@ -37,6 +37,7 @@
                     <p class="date">
                     	<span class="day"><?php the_time('j'); ?></span>
                     	<span class="month"><?php the_time('M'); ?></span>
+			<span class="year"><?php the_time('Y'); ?></span>
                     </p>
                     
                     <?php woo_get_image('image',490,200); ?>
@@ -44,7 +45,7 @@
                     <div class="entry">
                     	<?php the_content(); ?>
                     </div>
-                    
+<!--                    
                     <div class="post-meta">
                     
                     	<ul>
@@ -64,7 +65,8 @@
                     	
                     	<div class="fix"></div>
                     
-                    </div><!-- /.post-meta -->
+                    </div>
+-->
 
                 </div><!-- /.post -->
                                                     

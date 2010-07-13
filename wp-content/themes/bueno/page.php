@@ -17,9 +17,9 @@
                     </div>
 
                 </div><!-- /.post -->
-                
+
                 <?php if ('open' == $post->comment_status) : ?>
-	                <?php comments_template(); ?>
+
 				<?php endif; ?>
                                                     
 			<?php endwhile; else: ?>

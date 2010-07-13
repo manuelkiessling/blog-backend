@@ -14,6 +14,7 @@
                     <p class="date">
                     	<span class="day"><?php the_time('j'); ?></span>
                     	<span class="month"><?php the_time('M'); ?></span>
+			<span class="year"><?php the_time('Y'); ?></span>
                     </p>
                     
                     <?php woo_get_image('image',490,200); ?>
