@@ -43,6 +43,7 @@
                     <?php woo_get_image('image',490,200); ?>
                     
                     <div class="entry">
+			<?php remove_filter ("the_content", "wpautop"); ?>
                     	<?php the_content(); ?>
                     </div>
 <!--                    

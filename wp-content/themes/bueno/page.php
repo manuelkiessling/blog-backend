@@ -13,6 +13,7 @@
                     <h1 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
                     
                     <div class="entry">
+			<?php remove_filter ("the_content", "wpautop"); ?>
                     	<?php the_content(); ?>
                     </div>
 

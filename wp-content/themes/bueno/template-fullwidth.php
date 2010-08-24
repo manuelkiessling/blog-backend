@@ -17,6 +17,7 @@ Template Name: Full Width
                     <h2 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
                     
                     <div class="entry">
+				<?php remove_filter ("the_content", "wpautop"); ?>
 	                	<?php the_content(); ?>
 	               	</div><!-- /.entry -->
 
