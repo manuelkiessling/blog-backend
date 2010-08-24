@@ -23,28 +23,6 @@
 			<?php the_excerpt(); ?>
 			<a class="readmore" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">Vollständigen Artikel lesen</a>
                     </div>
-<!--                    
-                    <div class="post-meta">
-                    
-                    	<ul>
-                    		<li class="comments">
-                    			<span class="head"><?php _e('Comments', 'woothemes') ?></span>
-                    			<span class="body"><?php comments_popup_link(__('0 Comments', 'woothemes'), __('1 Comment', 'woothemes'), __('% Comments', 'woothemes')); ?></span>
-                    		</li>
-                    		<li class="categories">
-                    			<span class="head"><?php _e('Categories', 'woothemes') ?></span>
-                    			<span class="body"><?php the_category(', ') ?></span>
-                    		</li>
-                    		<li class="author">
-                    			<span class="head"><?php _e('Author', 'woothemes') ?></span>
-                    			<span class="body"><?php the_author_posts_link(); ?></span>
-                    		</li>
-                    	</ul>
-                    	
-                    	<div class="fix"></div>
-                    
-                    </div>
--->
 
                 </div><!-- /.post -->
                                                     
@@ -56,8 +34,8 @@
         
                 <div class="more_entries">
                     <?php if (function_exists('wp_pagenavi')) wp_pagenavi(); else { ?>                    
-                    <div class="fl"><?php next_posts_link(__('&laquo; Ältere Einträge', 'woothemes')) ?></div>
-					<div class="fr"><?php previous_posts_link(__('Neuere Einträge &raquo;', 'woothemes')) ?></div>
+                    <div class="fl"><?php next_posts_link(__('&laquo; &Auml;ltere Eintr&auml;ge', 'woothemes')) ?></div>
+					<div class="fr"><?php previous_posts_link(__('Neuere Eintr&auml;ge &raquo;', 'woothemes')) ?></div>
                     <br class="fix" />
                     <?php } ?> 
                 </div>		

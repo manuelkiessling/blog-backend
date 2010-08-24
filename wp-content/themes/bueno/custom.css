@@ -84,7 +84,10 @@ body {
 }
 
 .post .date {
-	background:url("styles/green/date.png") no-repeat scroll left top transparent;
+	background: none;
+	color: #EEEEEE;
+	left: -18px;
+	top: 40px;
 }
 
 .post .date .day {
@@ -93,7 +96,6 @@ body {
 }
 
 .post .date .year  {
-	color: #FFFFFF;
 	left: 20px;
 	position: absolute;
 	top: 37px;

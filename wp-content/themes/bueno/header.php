@@ -49,7 +49,7 @@
                         woo_custom_navigation_output('name=Woo Menu 2');
     
                 } else { ?>
-			<div style="height: 42px;">&nbsp;</div>
+			<li><div style="height: 42px;">&nbsp;</div></li>
 	            <?php // wp_list_categories('sort_column=menu_order&depth=3&title_li=&exclude='.get_option('woo_nav_exclude')); ?>
 	            <?php } ?>
 	        </ul><!-- /#nav -->
