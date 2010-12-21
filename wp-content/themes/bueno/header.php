@@ -20,7 +20,6 @@
 <?php // wp_head(); ?>
 
 <link rel='index' title='The Log Book of Manuel Kiessling' href='/' />
-<!-- <link rel="stylesheet" href="http://disqus.com/stylesheets/thelogbookofmanuelkiessling/disqus.css?v=2.0" type="text/css" media="screen" /> -->
 <link href="/wordpress/wp-content/themes/bueno/styles/grey.css" rel="stylesheet" type="text/css" />
 <link href="/wordpress/wp-content/themes/bueno/custom.css" rel="stylesheet" type="text/css" />
 <style type="text/css">

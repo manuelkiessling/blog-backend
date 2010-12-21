@@ -171,21 +171,6 @@ a.readmore {
 	color: #aaa;
 }
 
-#disqus_thread  {
-	font-family: Arial, sans-serif;
-	padding: 7px;
-	background-color: #eee;
-}
-
-#dsq-content .dsq-comment-message {
-	background-color: #FFFFFF;
-	color: #000000;
-	font-family: "Palatino Linotype","Book Antiqua",Palatino,Georgia,times,"Times New Roman",times-roman,serif;;
-	font-size: 12pt;
-	padding: 12px;
-	margin-top: 0;
-}
-
 #sidebar {
 	width: 193px;
 	font-family: Arial,sans-serif;
