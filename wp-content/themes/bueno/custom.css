@@ -13,7 +13,7 @@ your liking.
 
 body {
 	background: #eee;
-	line-height: 1.7;
+	line-height: 1.5;
 }
 
 #navigation {
@@ -84,10 +84,10 @@ body {
 }
 
 .post .date {
-	background: none;
-	color: #EEEEEE;
-	left: -18px;
-	top: 40px;
+	#background: none;
+	color: #ddd;
+	left: -33px;
+	top: 42px;
 }
 
 .post .date .day {
@@ -103,21 +103,22 @@ body {
 
 .post {
 	background-color: #fff;
-	border-style: none none dotted;
-	border-width: 0 0 1px;
+	border-style: none;
+	border-width: 0 0 0;
 	margin: 0;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 
 }
 
 .post .entry {
-	font-family: "Palatino Linotype","Book Antiqua",Palatino,Georgia,times,"Times New Roman",times-roman,serif;
+	font-family: Arial,sans-serif;
 	color: #333;
-	font-size: 12pt;
+	font-size: 13pt;
 }
 
 .post .entry a {
-	letter-spacing: -0.6pt;
+	#letter-spacing: -0.6pt;
 }
 
 .post code {
@@ -153,8 +154,10 @@ a.readmore {
 }
 
 .more_entries {
+	background-color: #eee;
 	margin-top: 0;
 	border: 0;
+	padding: 20px 1px;
 }
 
 .more_entries a {
