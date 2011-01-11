@@ -19,7 +19,6 @@
    
 <?php // wp_head(); ?>
 
-<link rel='index' title='The Log Book of Manuel Kiessling' href='/' />
 <link href="/wordpress/wp-content/themes/bueno/styles/grey.css" rel="stylesheet" type="text/css" />
 <link href="/wordpress/wp-content/themes/bueno/custom.css" rel="stylesheet" type="text/css" />
 <style type="text/css">

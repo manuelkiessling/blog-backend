@@ -31,7 +31,6 @@
                 	<p><?php _e('Sorry, no posts matched your criteria.', 'woothemes') ?></p>
                 </div><!-- /.post -->
             <?php endif; ?>  
-        
                 <div class="more_entries">
                     <?php if (function_exists('wp_pagenavi')) wp_pagenavi(); else { ?>                    
                     <div class="fl"><?php next_posts_link(__('&laquo; &Auml;ltere Eintr&auml;ge', 'woothemes')) ?></div>
