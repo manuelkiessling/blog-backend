@@ -23,28 +23,21 @@
                     	<?php the_content(); ?>
                     </div>
 
-<!--                    
-                    <div class="post-meta">
-                    
-                    	<ul>
-                    		<li class="comments">
-                    			<span class="head"><?php _e('Comments', 'woothemes') ?></span>
-                    			<span class="body"><?php comments_popup_link(__('0 Comments', 'woothemes'), __('1 Comment', 'woothemes'), __('% Comments', 'woothemes')); ?></span>
-                    		</li>
-                    		<li class="categories">
-                    			<span class="head"><?php _e('Categories', 'woothemes') ?></span>
-                    			<span class="body"><?php the_category(', ') ?></span>
-                    		</li>
-                    		<li class="author">
-                    			<span class="head"><?php _e('Author', 'woothemes') ?></span>
-                    			<span class="body"><?php the_author_posts_link(); ?></span>
-                    		</li>
-                    	</ul>
-                    	
-                    	<div class="fix"></div>
-                    
+                    <div id="comments">
+                     <div id="disqus_thread"></div>
+                     <script type="text/javascript">
+                      var disqus_shortname = 'thelogbookofmanuelkiessling';
+                      var disqus_identifier = '<?php the_id() ?>';
+                      var disqus_url = '<?php the_permalink() ?>';
+                      (function() {
+                       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                       dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                      })();
+                     </script>
+                     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                     <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
                     </div>
--->
 
                 </div><!-- /.post -->
 

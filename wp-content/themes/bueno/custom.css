@@ -178,6 +178,32 @@ a.readmore {
 	color: #aaa;
 }
 
+#comments {
+	border: none;
+	border-top: 5px solid #efefef;
+	margin: 0;
+	padding: 0;
+	margin-top: 80px;
+	font-family: Arial, sans-serif;
+}
+
+#dsq-content .dsq-options {
+	display: none;
+}
+
+#dsq-content #dsq-global-toolbar table {
+	display: none;
+}
+
+.dsq-brlink {
+	display: none;
+}
+
+.dsq-comment {
+	padding: 8px;
+	background-color: #eee;
+}
+
 #sidebar {
 	width: 193px;
 	font-family: Arial,sans-serif;
