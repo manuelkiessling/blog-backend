@@ -28,9 +28,6 @@
 	
 		<div class="col-full">
 	
-			<div id="copyright" class="col-left">
-				<p>&copy; <?php echo date('Y'); ?> Manuel Kiessling. <?php _e('All Rights Reserved.', 'woothemes') ?></p>
-			</div>
 		</div><!-- /.col-full -->
 		
 	</div><!-- /#footer -->

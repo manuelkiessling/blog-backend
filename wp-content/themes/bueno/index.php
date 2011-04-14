@@ -21,7 +21,7 @@
 
                     <div class="entry">
 			<?php the_excerpt(); ?>
-			<a class="readmore" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">Vollständigen Artikel lesen</a>
+			<a class="readmore" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">Read full post &raquo;</a>
                     </div>
 
                 </div><!-- /.post -->
@@ -33,8 +33,8 @@
             <?php endif; ?>  
                 <div class="more_entries">
                     <?php if (function_exists('wp_pagenavi')) wp_pagenavi(); else { ?>                    
-                    <div class="fl"><?php next_posts_link(__('&laquo; &Auml;ltere Eintr&auml;ge', 'woothemes')) ?></div>
-					<div class="fr"><?php previous_posts_link(__('Neuere Eintr&auml;ge &raquo;', 'woothemes')) ?></div>
+                    <div class="fl"><?php next_posts_link(__('&laquo; Previous entries', 'woothemes')) ?></div>
+					<div class="fr"><?php previous_posts_link(__('Newer entries &raquo;', 'woothemes')) ?></div>
                     <br class="fix" />
                     <?php } ?> 
                 </div>		
