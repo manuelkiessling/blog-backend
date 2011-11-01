@@ -66,6 +66,10 @@ body {
 	width: 959px;
 }
 
+#socialsharing {
+	margin-bottom: 24px;
+}
+
 .post .title {
 	font-family: Arial, sans-serif;
 	color: #000000;
@@ -88,6 +92,7 @@ body {
 	color: #ddd;
 	left: -33px;
 	top: 42px;
+	opacity: 0.5;
 }
 
 .post .date .day {
