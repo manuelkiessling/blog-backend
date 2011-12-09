@@ -12,8 +12,8 @@ your liking.
 */
 
 body {
-	background: #eee;
 	line-height: 1.5;
+	background: url("styles/grey/bg.gif");
 }
 
 #navigation {
@@ -21,6 +21,8 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
+	background: -moz-linear-gradient(top,#333,#000);
+	background: -webkit-gradient(linear,left top,left bottom,from(#333),to(#000));
 }
 
 #header {
@@ -51,15 +53,26 @@ body {
 #pagenav a {
 	font-family: Arial;
 	font-size: 10pt;
+	color: #fff;
 }
 
 #pagenav li.rss a {
 	background: transparent;
+	color: #aaa;
 }
 
 #main {
 	background-color: #fff;
 	width: 738px;
+	border-radius: 8px;
+	box-shadow: 0 0 16px #000000;
+}
+
+#content {
+	background-color: #222;
+	padding-right: 24px;
+	border-radius: 8px;
+	box-shadow: 0 0 16px #000000;
 }
 
 .col-full {
@@ -88,9 +101,8 @@ body {
 }
 
 .post .date {
-	#background: none;
 	color: #ddd;
-	left: -33px;
+	left: -16px;
 	top: 42px;
 	opacity: 0.5;
 }
@@ -113,6 +125,7 @@ body {
 	margin: 0;
 	padding-bottom: 50px;
 	padding-top: 50px;
+	border-radius: 8px;
 
 }
 
@@ -163,10 +176,10 @@ a.readmore {
 }
 
 .more_entries {
-	background-color: #eee;
+	background-color: #000;
 	margin-top: 0;
 	border: 0;
-	padding: 20px 1px;
+	padding: 20px 54px;
 }
 
 .more_entries a {
@@ -174,6 +187,11 @@ a.readmore {
 	font-weight: normal;
 	font-size: 10pt;
 	margin-top: 1px;
+	color: #999;
+}
+
+.more_entries a:visited {
+	color: #999;
 }
 
 .archive_header .catrss a {
@@ -213,25 +231,30 @@ a.readmore {
 	width: 193px;
 	font-family: Arial,sans-serif;
 	font-size: 10pt;
+	#text-align: right;
+}
+
+#sidebar a:link, a:visited {
+	color: #999;
+}
+
+#sidebar a:hover, #sidebar.widget_categories ul li a:hover {
+	color: #fff;
+	font-weight: normal;
 }
 
 .widget h3 {
 	font-size: 10pt;
 	font-weight: normal;
-	color: #000;
+	color: #999;
 }
 
-.widget ul li a:link, .widget ul li a:visited  {
+#sidebar .widget_categories ul li a:link, #sidebar .widget_categories ul li a:visited  {
 	background: none;
-	border-bottom: 1px solid #ddd;
 	padding-left: 0;
+	border: none;
+	color: #666;
 }
-
-.widget ul li a:hover {
-	font-weight: normal;
-	color: #000;
-}
-
 
 #footer {
 	background-color: transparent;
