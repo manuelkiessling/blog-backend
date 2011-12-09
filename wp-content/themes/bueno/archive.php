@@ -6,7 +6,7 @@
             <?php if (have_posts()) : $count = 0; ?>
             
 				<?php if (is_category()) { ?>
-                <span class="archive_header"><span class="fl cat"><?php _e('Kategorie', 'woothemes'); ?>: <?php echo single_cat_title(); ?></span> <span class="fr catrss"><?php $cat_obj = $wp_query->get_queried_object(); $cat_id = $cat_obj->cat_ID; echo '<a href="'; get_category_rss_link(true, $cat, ''); echo '">RSS Feed für diese Kategorie</a>'; ?></span></span>        
+                <span class="archive_header"><span class="fl cat"><?php _e('Categorie', 'woothemes'); ?>: <?php echo single_cat_title(); ?></span> <span class="fr catrss"><?php $cat_obj = $wp_query->get_queried_object(); $cat_id = $cat_obj->cat_ID; echo '<a href="'; get_category_rss_link(true, $cat, ''); echo '">RSS feed for this category</a>'; ?></span></span>        
             
                 <?php } elseif (is_day()) { ?>
                 <span class="archive_header"><?php _e('Kategorie', 'woothemes'); ?>: <?php the_time($GLOBALS['woodate']); ?></span>
@@ -79,8 +79,8 @@
         
                 <div class="more_entries">
                     <?php if (function_exists('wp_pagenavi')) wp_pagenavi(); else { ?>
-                    <div class="fl"><?php next_posts_link(__('&larr; Previous entries', 'woothemes')) ?></div>
-                    <div class="fr"><?php previous_posts_link(__('Newer entries &rarr;', 'woothemes')) ?></div>
+                    <div class="fl"><?php next_posts_link(__('« Previous entries', 'woothemes')) ?></div>
+                    <div class="fr"><?php previous_posts_link(__('Newer entries »', 'woothemes')) ?></div>
                     <br class="fix" />
                     <?php } ?> 
                 </div>		
