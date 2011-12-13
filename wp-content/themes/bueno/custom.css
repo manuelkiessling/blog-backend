@@ -13,7 +13,7 @@ your liking.
 
 body {
 	line-height: 1.5;
-	background: url("styles/grey/bg.gif");
+	background: url("styles/grey/wood.png");
 }
 
 #navigation {
@@ -61,15 +61,18 @@ body {
 	color: #aaa;
 }
 
+#pagenav li.current_page_item a, #pagenav li a:hover {
+    border-color: DarkOliveGreen;
+}
+
 #main {
 	background-color: #fff;
 	width: 738px;
 	border-radius: 8px;
-	box-shadow: 0 0 16px #000000;
 }
 
 #content {
-	background-color: #222;
+	background-color: #111;
 	padding-right: 24px;
 	border-radius: 8px;
 	box-shadow: 0 0 16px #000000;
@@ -101,10 +104,11 @@ body {
 }
 
 .post .date {
-	color: #ddd;
+	color: DarkOliveGreen;
 	left: -16px;
 	top: 42px;
 	opacity: 0.5;
+	background: none;
 }
 
 .post .date .day {
@@ -122,10 +126,10 @@ body {
 	background-color: #fff;
 	border-style: none;
 	border-width: 0 0 0;
-	margin: 0;
+	margin: 4px;
 	padding-bottom: 50px;
 	padding-top: 50px;
-	border-radius: 8px;
+	#border-radius: 8px;
 
 }
 
@@ -176,8 +180,9 @@ a.readmore {
 }
 
 .more_entries {
-	background-color: #000;
+	background-color: #111;
 	margin-top: 0;
+	border-radius: 0 0 0 7px;
 	border: 0;
 	padding: 20px 54px;
 }
