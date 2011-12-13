@@ -58,7 +58,7 @@ body {
 
 #pagenav li.rss a {
 	background: transparent;
-	color: #aaa;
+	color: #fff;
 }
 
 #pagenav li.current_page_item a, #pagenav li a:hover {
@@ -259,6 +259,10 @@ a.readmore {
 	padding-left: 0;
 	border: none;
 	color: #666;
+}
+
+#sidebar div.textwidget p img {
+	margin-bottom: 20px;
 }
 
 #footer {
