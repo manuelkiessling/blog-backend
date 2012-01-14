@@ -5,6 +5,7 @@
 <title><?php woo_title(); ?></title>
 <?php woo_meta(); ?>
 
+<link href="http://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php if ( get_option('woo_feedburner_url') <> "" ) { echo get_option('woo_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
