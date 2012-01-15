@@ -10,10 +10,9 @@
 
 					<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 
-					<div class="timestamp"><?php the_time('F j, Y'); ?> <!-- by <?php the_author() ?> --> //</div> <div class="comment-bubble"><a href="<?php the_permalink() ?>#comments"><?php comments_number('0', '1', '%'); ?></a></div>
+					<div class="timestamp"><?php the_time('F j, Y'); ?></div>
 					<div class="clearboth"><!-- --></div>
 
-					<p><?php edit_post_link('Edit this entry', '', ''); ?></p>
 
 				</div>
 

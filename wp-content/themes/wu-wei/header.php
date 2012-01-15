@@ -26,12 +26,11 @@
 		<div class="center-column">
 
 			<ul id="menu">
-				<li><a href="<?php echo get_option('home'); ?>/" <?php if(is_home()) {echo 'class="selected"';} ?>><span>to the beginning</span><br />home</a></li>
-				<li><a href="#"><span>description here</span><br />link 1</a></li>
-				<li><a href="#"><span>description here</span><br />link 2</a></li>
-				<li><a href="<?php bloginfo('rss2_url'); ?>"><span>rss syndication</span><br />entries</a></li>
-				<li><a href="<?php bloginfo('comments_rss2_url'); ?>"><span>rss syndication</span><br />comments</a></li>
-				<li class="last"><a href="#sidebar"><span>to the bottom</span><br />down</a></li>
+        <li><a href="<?php echo get_option('home'); ?>/" <?php if(is_home()) {echo 'class="selected"';} ?>><span></span><br />HOME</a></li>
+				<li><a href="/wordpress/contact/"><span></span><br />CONTACT</a></li>
+				<li><a href="http://photographs.manuel.kiessling.net/"><span></span><br />PHOTOGRAPHS</a></li>
+				<li><a href="<?php bloginfo('rss2_url'); ?>"><span></span><br />RSS</a></li>
+				<li class="last"><a href="#sidebar"><span></span><br />ABOUT</a></li>
 			</ul>
 
 			<div class="clearboth"><!-- --></div>
