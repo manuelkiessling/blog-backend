@@ -47,22 +47,20 @@ body {
 p {
   font-size: 1.0em;
   line-height: 1.5em;
-  margin: 0
-0 1.5em
+  margin: 0 0 1.5em
 }
 small {
   font-size: 0.75em
 }
-a: link,a: visited {
+a:link, a:visited {
   color: #f33;
   text-decoration: none
 }
-a: hover {
+a:hover {
   color: #516064
 }
 img {
-  margin: 0
-0 1.5em
+  margin: 0 0 1.5em
 }
 img.alignleft {
   margin-right: 1.5em
@@ -74,9 +72,8 @@ img.alignright {
   border-bottom: 1px solid #d1d9dc
 }
 .center-column {
-  width: 58.334em;
-  margin: 0px
-auto;
+  width: 75em;
+  margin: 0px auto;
   text-align: left;
   clear: both
 }
@@ -92,8 +89,7 @@ auto;
   margin-right: auto
 }
 .wp-caption {
-  border: 1px
-solid #ddd;
+  border: 1px solid #ddd;
   text-align: center;
   background-color: #f3f3f3;
   padding-top: 4px;
@@ -103,14 +99,12 @@ solid #ddd;
 img {
   margin: 0;
   padding: 0;
-  border: 0
-none
+  border: 0 none
 }
 .wp-caption p.wp-caption-text {
   font-size: 10px;
   line-height: 17px;
-  padding: 0
-4px 5px;
+  padding: 0 4px 5px;
   margin: 0
 }
 .clearboth {
@@ -134,8 +128,7 @@ span {
   left: 240px
 }
 #searchform {
-  margin: 0
-0 1.5em;
+  margin: 0 0 1.5em;
   font-size: 1.0em
 }
 ul#menu {
@@ -153,8 +146,7 @@ li {
 }
 ul#menu li a: link, ul#menu li a: visited {
   display: block;
-  padding: 7px
-0 10px;
+  padding: 7px 0 10px;
   line-height: 1em;
   width: 9.08em;
   color: #6a797d;
@@ -200,8 +192,8 @@ ul#menu
   color: #6a797d
 }
 #header {
-  padding: 2em
-0
+  font-size: 54%;
+  padding: 3em 0
 }
 .post,.page {
   border-top: 1px solid #d1d9dc;
@@ -232,8 +224,7 @@ h1 a: hover {
 .post-info {
   float: left;
   width: 18.333em;
-  margin: 0
-1.667em 0 0
+  margin: 0 10em 0 0
 }
 .timestamp {
   float: left;
@@ -256,8 +247,9 @@ h1 a: hover {
   color: #f33
 }
 .post-content {
+  font-size: 149%;
   float: left;
-  width: 38.333em;
+  width: 25em;
   overflow: visible
 }
 .post-content
@@ -294,8 +286,7 @@ blockquote {
 }
 .post-content ul, .post-content
 ol {
-  margin: 0
-0 1.5em;
+  margin: 0 0 1.5em;
   padding: 0;
   font-size: 1.0em
 }
@@ -312,12 +303,10 @@ ul {
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
-  margin: 0
-0 1.5em
+  margin: 0 0 1.5em
 }
 dl {
-  margin: 0
-0 1.5em
+  margin: 0 0 1.5em
 }
 dt {
   font-weight: bold;
@@ -342,8 +331,7 @@ hr {
 }
 .post-meta-data {
   position: relative;
-  margin: 0
-0 0 10em;
+  margin: 0 0 0 10em;
   height: 100%;
   padding: 0.333em 0;
   border-top: 1px solid #d1d9dc
@@ -355,14 +343,12 @@ span {
   top: 0.333em
 }
 .gallery {
-  margin: 0
-0 1.5em 0;
+  margin: 0 0 1.5em 0;
   padding: 0
 }
 .gallery-item {
   float: left;
-  margin: 10px
-0 0 0;
+  margin: 10px 0 0 0;
   text-align: left;
   padding: 0
 }
@@ -379,8 +365,7 @@ img {
   background: #fff
 }
 .gallery-caption {
-  margin: 0
-0 1.5em 0;
+  margin: 0 0 1.5em 0;
   font-size: 0.833em;
   line-height: 1.167em;
   color: #666
@@ -393,8 +378,7 @@ table {
 table
 th {
   padding: 0.5em;
-  border: 1px
-solid #d1d9dc;
+  border: 1px solid #d1d9dc;
   background-color: #f8f8f8
 }
 table
@@ -405,8 +389,7 @@ tr {
 table tr
 td {
   padding: 0.5em;
-  border: 1px
-solid #d1d9dc
+  border: 1px solid #d1d9dc
 }
 #comment-wrapper {
   padding-left: 10em;
@@ -517,8 +500,7 @@ h3 {
 }
 .nocomments {
   border-top: 1px solid #d1d9dc;
-  padding: 1em
-0 0 8.571em
+  padding: 1em 0 0 8.571em
 }
 .form-field {
   position: relative;
@@ -533,14 +515,12 @@ span {
 .form-field #author, .form-field #email, .form-field
 #url {
   background-color: #fcfcfc;
-  border: 1px
-solid #333
+  border: 1px solid #333
 }
 .form-field span
 textarea#comment {
   background-color: #fcfcfc;
-  border: 1px
-solid #333;
+  border: 1px solid #333;
   width: 32.857em;
   height: 200px;
   font-size: 1em;
@@ -576,10 +556,8 @@ auto;
 #sidebar {
   width: 60em;
   border-top: 1px solid #d1d9dc;
-  margin: 0
-0 1em 0;
-  padding: 1em
-0 0 0
+  margin: 0 0 1em 0;
+  padding: 1em 0 0 0
 }
 #sidebar
 li {
@@ -606,8 +584,7 @@ a {
   display: block
 }
 #footer {
-  margin: 2em
-0;
+  margin: 2em 0;
   padding: 0.5em 0 0 0;
   border-top: 3px solid #eee;
   font-size: 0.916em;
