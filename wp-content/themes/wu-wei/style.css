@@ -30,7 +30,11 @@ code, code p {
   background-color: black;
   color: white;
   display: block;
-  padding: 8px;
+  padding: 16px;
+  border-radius: 12px;
+  white-space: pre;
+  line-height: 1.2em;
+  margin-right: -200px;
 }
 table {
   border-collapse: collapse;
@@ -567,7 +571,7 @@ auto;
 #sidebar
 li {
   display: inline;
-  width: 15.713em;
+  width: 24em;
   margin-right: 4em;
   overflow: hidden;
   float: left;

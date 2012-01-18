@@ -20,8 +20,6 @@
 
 			<div class="clearboth"><!-- --></div>
 
-			<?php comments_template(); ?>
-
 		</div>
 
 		<?php endwhile; endif; ?>
