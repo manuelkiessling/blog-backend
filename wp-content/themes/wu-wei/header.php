@@ -8,6 +8,7 @@
 
 <meta name="description" content="<?php bloginfo('description'); ?>" />
 
+<link href="http://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/colours.css" type="text/css"/>
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />

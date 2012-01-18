@@ -17,7 +17,8 @@
 				</div>
 
 				<div class="post-content">
-					<?php the_content('Read the rest of this entry &raquo;'); ?>
+          <?php the_excerpt('Read the rest of this entry &raquo;'); ?>
+          <a class="readmore" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">Read full post &raquo;</a>
 
 					<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				</div>

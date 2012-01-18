@@ -47,7 +47,7 @@ body {
   padding: 0;
   text-align: center;
   font-size: 75%;
-  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: "Cantarell","Helvetica Neue",Arial,Helvetica,sans-serif;
   text-shadow: 0 -1px 1px rgba(255,255,255,0.005)
 }
 p {
@@ -59,7 +59,7 @@ small {
   font-size: 0.75em
 }
 a:link, a:visited {
-  color: blue;
+  color: #59767d;
   text-decoration: none
 }
 a:hover {
@@ -179,18 +179,11 @@ ul#menu
   margin-right: 0
 }
 .blog-name {
+  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
   font-size: 7.5em;
   font-weight: bold;
   line-height: 1em;
-  color: #6a797d;
   text-shadow: #e5e5ee 2px 3px 0px
-}
-.blog-name a: link, .blog-name a: visited {
-  color: #6a797d;
-  text-decoration: none
-}
-.blog-name a: hover {
-  color: #f33
 }
 .description {
   margin-top: 0.5em;
@@ -203,7 +196,8 @@ ul#menu
 }
 .post,.page {
   border-top: 1px solid #d1d9dc;
-  padding-top: 1.5em
+  padding-top: 1.5em;
+  margin-bottom: 4em;
 }
 * html .post, * html
 .page {
@@ -231,6 +225,9 @@ h1 a: hover {
   float: left;
   width: 18.333em;
   margin: 0 4em 0 0
+}
+.post-info h1 a {
+  color: blue;
 }
 .timestamp {
   float: left;
@@ -272,6 +269,9 @@ h3 {
 h4 {
   font-size: 1.167em;
   margin-bottom: 0.867em
+}
+.post-content a {
+  color: blue;
 }
 blockquote {
   background: #fff url(/blog/wp-content/themes/wu-wei/images/blockquote.gif) no-repeat top left;
@@ -398,7 +398,6 @@ td {
   border: 1px solid #d1d9dc
 }
 #comment-wrapper {
-  padding-left: 10em;
   border-top: 1px solid #d1d9dc
 }
 h3#comments {
