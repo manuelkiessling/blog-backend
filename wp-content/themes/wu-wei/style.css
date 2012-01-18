@@ -47,7 +47,7 @@ img {
 }
 body {
   background-color: #fcfcfc;
-  color: #393e45;
+  color: black;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -64,11 +64,11 @@ small {
   font-size: 0.75em
 }
 a:link, a:visited {
-  color: #59767d;
+  color: #999;
   text-decoration: none
 }
 a:hover {
-  color: #516064
+  color: blue
 }
 img {
   margin: 0
@@ -80,7 +80,7 @@ img.alignright {
   margin-left: 1.5em
 }
 .full-column {
-  border-bottom: 1px solid #d1d9dc
+  border-bottom: 1px solid #999
 }
 .center-column {
   width: 67em;
@@ -124,14 +124,14 @@ img {
 .navigation {
   padding: 0.333em 0;
   font-size: 1.15em;
-  border-top: 1px solid #d1d9dc
+  border-top: 1px solid #999
 }
 .pagetitle {
   padding: 0.333em 0;
   font-size: 0.2em;
-  color: #6a797d;
+  color: #999;
   position: relative;
-  border-top: 1px solid #d1d9dc
+  border-top: 1px solid #999
 }
 .pagetitle
 span {
@@ -160,7 +160,7 @@ ul#menu li a: link, ul#menu li a: visited {
   padding: 7px 0 10px;
   line-height: 1em;
   width: 9.08em;
-  color: #6a797d;
+  color: #999;
   font-weight: bold;
   text-decoration: none;
   border-top: 3px solid #fff;
@@ -172,7 +172,7 @@ ul#menu li a: hover {
 ul#menu li a
 span {
   font-size: 0.833em;
-  color: #d1d9dc;
+  color: #999;
   text-transform: lowercase
 }
 ul#menu li
@@ -193,15 +193,15 @@ ul#menu
 .description {
   margin-top: 0.5em;
   font-size: 1.25em;
-  color: #6a797d
+  color: #999
 }
 #header {
   font-size: 54%;
   padding: 3em 0
 }
 .post,.page {
-  border-top: 1px solid #d1d9dc;
-  padding-top: 1.5em;
+  border-top: 1px solid #999;
+  padding-top: 4em;
   margin-bottom: 4em;
 }
 * html .post, * html
@@ -209,10 +209,10 @@ ul#menu
   height: 1%
 }
 .sticky {
-  border-top: 3px solid #d1d9dc
+  border-top: 3px solid #999
 }
 h1 {
-  color: #959ea1;
+  color: #999;
   font-size: 2em;
   font-weight: bold;
   line-height: 1em;
@@ -220,11 +220,11 @@ h1 {
   text-shadow: #e5e5ee 1px 1px 0px
 }
 h1 a: link, h1 a: visited {
-  color: #6a797d;
+  color: #999;
   text-decoration: none
 }
 h1 a: hover {
-  color: #f33
+  color: blue
 }
 .post-info {
   float: left;
@@ -237,7 +237,7 @@ h1 a: hover {
 .timestamp {
   float: left;
   font-size: 1.2em;
-  color: #959ea1
+  color: #999
 }
 .comment-bubble {
   float: left;
@@ -246,13 +246,13 @@ h1 a: hover {
   text-align: center
 }
 .comment-bubble a: link, .comment-bubble a: visited {
-  color: #959ea1;
+  color: #999;
   text-decoration: none;
   width: 30px;
   height: 32px
 }
 .comment-bubble a: hover {
-  color: #f33
+  color: blue
 }
 .post-content {
   color: black;
@@ -287,7 +287,7 @@ h4 {
 }
 blockquote {
   background: #fff url(/blog/wp-content/themes/wu-wei/images/blockquote.gif) no-repeat top left;
-  border-left: 2px solid #D1D9DC;
+  border-left: 2px solid #999;
   padding-left: 12px;
   font-style: italic
 }
@@ -338,9 +338,9 @@ acronym,abbr {
   border-bottom: 1px dotted #333
 }
 hr {
-  color: #d1d9dc;
+  color: #999;
   height: 1px;
-  background-color: #d1d9dc;
+  background-color: #999;
   border: 0
 }
 .more-link {
@@ -352,7 +352,7 @@ hr {
   margin: 0 0 0 10em;
   height: 100%;
   padding: 0.333em 0;
-  border-top: 1px solid #d1d9dc
+  border-top: 1px solid #999
 }
 .post-meta-data
 span {
@@ -386,7 +386,7 @@ img {
   margin: 0 0 1.5em 0;
   font-size: 0.833em;
   line-height: 1.167em;
-  color: #666
+  color: #999
 }
 table {
   margin: 1.5em 0;
@@ -396,7 +396,7 @@ table {
 table
 th {
   padding: 0.5em;
-  border: 1px solid #d1d9dc;
+  border: 1px solid #999;
   background-color: #f8f8f8
 }
 table
@@ -407,17 +407,17 @@ tr {
 table tr
 td {
   padding: 0.5em;
-  border: 1px solid #d1d9dc
+  border: 1px solid #999
 }
 #comment-wrapper {
-  border-top: 1px solid #d1d9dc
+  border-top: 1px solid #999
 }
 h3#comments {
   font-size: 1.15em;
   position: relative;
   height: 100%;
   padding: 0.333em 0;
-  color: #959ea1;
+  color: #999;
   font-weight: normal
 }
 h3#comments
@@ -434,7 +434,7 @@ ol.commentlist
 li {
   list-style: none;
   position: relative;
-  border-top: 1px solid #d1d9dc;
+  border-top: 1px solid #999;
   padding: 0.333em 0 0 10em
 }
 ol.commentlist
@@ -496,7 +496,7 @@ div.reply {
 #respond {
   position: relative;
   padding: 0;
-  border-top: 1px solid #d1d9dc;
+  border-top: 1px solid #999;
   margin-bottom: 3em
 }
 #respond
@@ -512,11 +512,11 @@ h3 {
   right: 3px
 }
 #commentform {
-  border-top: 1px solid #d1d9dc;
+  border-top: 1px solid #999;
   padding-top: 1em
 }
 .nocomments {
-  border-top: 1px solid #d1d9dc;
+  border-top: 1px solid #999;
   padding: 1em 0 0 8.571em
 }
 .form-field {
@@ -572,7 +572,7 @@ auto;
 }
 #sidebar {
   width: 67em;
-  border-top: 4em solid #d1d9dc;
+  border-top: 4em solid #999;
   margin: 4em 0 1em 0;
   padding: 1em 0 0 0
 }
