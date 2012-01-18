@@ -2,22 +2,14 @@
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php previous_post_link('&laquo; %link') ?></div>
-			<div class="alignright"><?php next_post_link('%link &raquo;') ?></div>
-			<div class="clearboth"><!-- --></div>
-		</div>
-
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
 			<div class="post-info">
 
 				<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 
-				<div class="timestamp"><?php the_time('F j, Y'); ?> <!-- by <?php the_author() ?> --> //</div> <div class="comment-bubble"><a href="#comments"><?php comments_number('0', '1', '%'); ?></a></div>
+				<div class="timestamp"><?php the_time('F j, Y'); ?></div>
 				<div class="clearboth"><!-- --></div>
-
-				<p><?php edit_post_link('Edit this entry', '', ''); ?></p>
 
 			</div>
 
@@ -30,10 +22,6 @@
 			</div>
 
 			<div class="clearboth"><!-- --></div>
-
-				<div class="post-meta-data">Tags <span><?php the_tags('', ', ', ''); ?></span></div>
-
-				<div class="post-meta-data">Categories <span><?php the_category(', ') ?></span></div>
 
 		</div>
 

@@ -44,6 +44,5 @@
 	<div id="header">
 
 		<div class="blog-name"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></div>
-		<div class="description"><?php bloginfo('description'); ?> <a href="#">read more &#187;</a></div>
 
 	</div>

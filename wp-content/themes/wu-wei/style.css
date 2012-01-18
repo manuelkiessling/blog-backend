@@ -53,7 +53,7 @@ small {
   font-size: 0.75em
 }
 a:link, a:visited {
-  color: #f33;
+  color: blue;
   text-decoration: none
 }
 a:hover {
