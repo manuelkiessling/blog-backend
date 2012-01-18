@@ -27,6 +27,7 @@ del {
   text-decoration: line-through
 }
 code, code p {
+  font-size: 11pt;
   background-color: black;
   color: white;
   display: block;
@@ -51,12 +52,12 @@ body {
   padding: 0;
   text-align: center;
   font-size: 75%;
-  font-family: "Cantarell","Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
   text-shadow: 0 -1px 1px rgba(255,255,255,0.005)
 }
 p {
   font-size: 1.0em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   margin: 0 0 1.5em
 }
 small {
@@ -254,9 +255,12 @@ h1 a: hover {
   color: #f33
 }
 .post-content {
-  font-size: 149%;
+  color: black;
+  font-family: "Times New Roman", times, serif;
+  font-size: 14pt;
   float: left;
-  width: 30em;
+  text-align: justify;
+  width: 28em;
   overflow: visible
 }
 .post-content
@@ -276,6 +280,10 @@ h4 {
 }
 .post-content a {
   color: blue;
+}
+.post-content a.readmore {
+  font-size: 12pt;
+  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif
 }
 blockquote {
   background: #fff url(/blog/wp-content/themes/wu-wei/images/blockquote.gif) no-repeat top left;
