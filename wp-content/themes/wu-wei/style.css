@@ -57,7 +57,7 @@ body {
 }
 p {
   font-size: 1.0em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   margin: 0 0 1.5em
 }
 small {
@@ -68,7 +68,7 @@ a:link, a:visited {
   text-decoration: none
 }
 a:hover {
-  color: blue
+  color: #2d6bb0
 }
 img {
   margin: 0
@@ -224,7 +224,7 @@ h1 a: link, h1 a: visited {
   text-decoration: none
 }
 h1 a: hover {
-  color: blue
+  color: #2d6bb0
 }
 .post-info {
   float: left;
@@ -232,7 +232,7 @@ h1 a: hover {
   margin: 0 4em 0 0
 }
 .post-info h1 a {
-  color: blue;
+  color: #2d6bb0;
 }
 .timestamp {
   float: left;
@@ -252,11 +252,11 @@ h1 a: hover {
   height: 32px
 }
 .comment-bubble a: hover {
-  color: blue
+  color: #2d6bb0
 }
 .post-content {
   color: black;
-  font-family: "Times New Roman", times, serif;
+  font-family: "Lora", "Times New Roman", serif;
   font-size: 14pt;
   float: left;
   text-align: justify;
@@ -279,7 +279,7 @@ h4 {
   margin-bottom: 0.867em
 }
 .post-content a {
-  color: blue;
+  color: #2d6bb0;
 }
 .post-content a.readmore {
   font-size: 12pt;
