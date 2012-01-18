@@ -600,6 +600,12 @@ h2 {
 a {
   display: block
 }
+#sidebar img {
+  float: left;
+  margin-top: 5px;
+  margin-right: 32px;
+  margin-bottom: 140px;
+}
 #footer {
   margin: 2em 0;
   padding: 0.5em 0 0 0;
