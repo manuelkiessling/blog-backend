@@ -26,6 +26,12 @@ ins {
 del {
   text-decoration: line-through
 }
+code, code p {
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 8px;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0
@@ -60,7 +66,7 @@ a:hover {
   color: #516064
 }
 img {
-  margin: 0 0 1.5em
+  margin: 0
 }
 img.alignleft {
   margin-right: 1.5em
@@ -72,7 +78,7 @@ img.alignright {
   border-bottom: 1px solid #d1d9dc
 }
 .center-column {
-  width: 75em;
+  width: 67em;
   margin: 0px auto;
   text-align: left;
   clear: both
@@ -224,7 +230,7 @@ h1 a: hover {
 .post-info {
   float: left;
   width: 18.333em;
-  margin: 0 10em 0 0
+  margin: 0 4em 0 0
 }
 .timestamp {
   float: left;
@@ -249,7 +255,7 @@ h1 a: hover {
 .post-content {
   font-size: 149%;
   float: left;
-  width: 25em;
+  width: 30em;
   overflow: visible
 }
 .post-content
@@ -269,8 +275,8 @@ h4 {
 }
 blockquote {
   background: #fff url(/blog/wp-content/themes/wu-wei/images/blockquote.gif) no-repeat top left;
-  margin-left: 7em;
-  padding-left: 3em;
+  border-left: 2px solid #D1D9DC;
+  padding-left: 12px;
   font-style: italic
 }
 .pull-1 {
@@ -546,7 +552,7 @@ textarea#comment {
   width: auto
 }
 .center-column-sidebar {
-  width: 58.334em;
+  width: 67em;
   margin: 0px
 auto;
   text-align: left;
@@ -554,16 +560,16 @@ auto;
   overflow: hidden
 }
 #sidebar {
-  width: 60em;
-  border-top: 1px solid #d1d9dc;
-  margin: 0 0 1em 0;
+  width: 67em;
+  border-top: 4em solid #d1d9dc;
+  margin: 4em 0 1em 0;
   padding: 1em 0 0 0
 }
 #sidebar
 li {
   display: inline;
   width: 15.713em;
-  margin-right: 1.429em;
+  margin-right: 4em;
   overflow: hidden;
   float: left;
   list-style: none
