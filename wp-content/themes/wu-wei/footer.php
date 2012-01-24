@@ -2,7 +2,7 @@
 
 	<div id="footer">
 
-			<div class="bottom-link"><a href="#top">back to the top</a></div>
+			<div class="bottom-link"><a href="#top">BACK TO THE TOP</a></div>
 
 			<div class="clearboth"><!-- --></div>
 

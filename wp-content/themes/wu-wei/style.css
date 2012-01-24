@@ -52,7 +52,7 @@ body {
   padding: 0;
   text-align: center;
   font-size: 75%;
-  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
   text-shadow: 0 -1px 1px rgba(255,255,255,0.005)
 }
 p {
@@ -184,11 +184,11 @@ ul#menu
   margin-right: 0
 }
 .blog-name {
-  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-  font-size: 7.5em;
-  font-weight: bold;
+  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-size: 6.4em;
+  font-weight: 800;
   line-height: 1em;
-  text-shadow: #e5e5ee 2px 3px 0px
+  text-shadow: #e5e5ee 2px 2px 2px
 }
 .description {
   margin-top: 0.5em;
@@ -213,9 +213,9 @@ ul#menu
 }
 h1 {
   color: #999;
-  font-size: 2em;
-  font-weight: bold;
-  line-height: 1em;
+  font-size: 18pt;
+  font-weight: 600;
+  line-height: 1.2em;
   padding-bottom: 0.6em;
   text-shadow: #e5e5ee 1px 1px 0px
 }
@@ -224,7 +224,7 @@ h1 a: link, h1 a: visited {
   text-decoration: none
 }
 h1 a: hover {
-  color: #2d6bb0
+  color: #999
 }
 .post-info {
   float: left;
@@ -256,7 +256,7 @@ h1 a: hover {
 }
 .post-content {
   color: black;
-  font-family: "Lora", "Times New Roman", serif;
+  font-family: "Open Sans", "Times New Roman", serif;
   font-size: 14pt;
   float: left;
   text-align: justify;
@@ -282,8 +282,9 @@ h4 {
   color: #2d6bb0;
 }
 .post-content a.readmore {
-  font-size: 12pt;
-  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif
+  font-size: 1em;
+  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-weight: 600;
 }
 blockquote {
   background: #fff url(/blog/wp-content/themes/wu-wei/images/blockquote.gif) no-repeat top left;
@@ -541,7 +542,7 @@ textarea#comment {
   width: 32.857em;
   height: 200px;
   font-size: 1em;
-  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif
+  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif
 }
 .comment-box {
   margin-bottom: 200px
