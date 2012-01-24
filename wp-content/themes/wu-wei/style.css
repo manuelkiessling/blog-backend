@@ -45,7 +45,7 @@ img {
   border: none
 }
 body {
-  background-color: #fcfcfc;
+  background-color: #fff;
   color: black;
   margin: 0;
   padding: 0;
@@ -79,7 +79,8 @@ img.alignright {
   margin-left: 1.5em
 }
 .full-column {
-  border-bottom: 1px solid #999
+  border-bottom: 1px solid #999;
+  background-color: #f8f8f8;
 }
 .center-column {
   width: 67em;
@@ -174,10 +175,6 @@ span {
   color: #999;
   text-transform: lowercase
 }
-ul#menu li
-a.selected {
-  border-top: 3px solid #fff
-}
 ul#menu
 .last {
   margin-right: 0
@@ -203,10 +200,11 @@ ul#menu
 }
 #header {
   font-size: 54%;
-  padding: 3em 0
+  padding: 3em 0;
+  text-align: center;
 }
 .post,.page {
-  border-top: 1px solid #999;
+  border-top: 1px dotted #999;
   padding-top: 4em;
   margin-bottom: 4em;
 }
@@ -222,7 +220,7 @@ h1 {
   font-size: 18pt;
   font-weight: 600;
   line-height: 1.2em;
-  padding-bottom: 0.6em;
+  padding-bottom: 0.1em;
   text-shadow: #e5e5ee 1px 1px 0px
 }
 h1 a: link, h1 a: visited {
@@ -240,7 +238,7 @@ h1 a: hover {
 .post-info.single {
   width: 63em;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 .post-info h1 a {
   color: #2d6bb0;
@@ -251,7 +249,8 @@ h1 a: hover {
 .timestamp {
   float: left;
   font-size: 1.2em;
-  color: #999
+  color: #999;
+  padding-left: 1px;
 }
 .post-content {
   color: black;
@@ -268,17 +267,23 @@ h1 a: hover {
 .post-content
 h2 {
   font-size: 2.0em;
-  margin-bottom: 0.75em
+  margin-bottom: 0.75em;
+  font-weight: normal;
+  text-align: left;
 }
 .post-content
 h3 {
   font-size: 1.5em;
-  margin-bottom: 1em
+  margin-bottom: 1em;
+  font-weight: normal;
+  text-align: left;
 }
 .post-content
 h4 {
   font-size: 1.167em;
-  margin-bottom: 0.867em
+  margin-bottom: 0.867em;
+  font-weight: normal;
+  text-align: left;
 }
 .post-content a {
   color: #2d6bb0;
