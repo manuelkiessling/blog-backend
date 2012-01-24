@@ -35,7 +35,6 @@ code, code p {
   border-radius: 12px;
   white-space: pre;
   line-height: 1.2em;
-  margin-right: -200px;
 }
 table {
   border-collapse: collapse;
@@ -56,8 +55,8 @@ body {
   text-shadow: 0 -1px 1px rgba(255,255,255,0.005)
 }
 p {
-  font-size: 1.0em;
-  line-height: 1.4em;
+  font-size: 14pt;
+  line-height: 1.5em;
   margin: 0 0 1.5em
 }
 small {
@@ -184,11 +183,18 @@ ul#menu
   margin-right: 0
 }
 .blog-name {
+  color: #2d6bb0;
   font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
   font-size: 6.4em;
   font-weight: 800;
   line-height: 1em;
   text-shadow: #e5e5ee 2px 2px 2px
+}
+.blog-name a {
+  color: #2d6bb0;
+}
+.blog-name a:hover {
+  color: #999;
 }
 .description {
   margin-top: 0.5em;
@@ -231,37 +237,33 @@ h1 a: hover {
   width: 18.333em;
   margin: 0 4em 0 0
 }
+.post-info.single {
+  width: 63em;
+  margin: 0;
+  margin-bottom: 48px;
+}
 .post-info h1 a {
   color: #2d6bb0;
 }
+.post-info h1 a:hover {
+    color: #999;
+  }
 .timestamp {
   float: left;
   font-size: 1.2em;
   color: #999
 }
-.comment-bubble {
-  float: left;
-  font-size: 1.25em;
-  margin-left: 0.5em;
-  text-align: center
-}
-.comment-bubble a: link, .comment-bubble a: visited {
-  color: #999;
-  text-decoration: none;
-  width: 30px;
-  height: 32px
-}
-.comment-bubble a: hover {
-  color: #2d6bb0
-}
 .post-content {
   color: black;
-  font-family: "Open Sans", "Times New Roman", serif;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 14pt;
   float: left;
   text-align: justify;
   width: 28em;
   overflow: visible
+}
+.post-content.single {
+  width: 42.5em;
 }
 .post-content
 h2 {
@@ -281,10 +283,17 @@ h4 {
 .post-content a {
   color: #2d6bb0;
 }
+.post-content a:hover {
+  text-decoration: underline;
+}
 .post-content a.readmore {
   font-size: 1em;
   font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
   font-weight: 600;
+}
+.post-content a.readmore:hover {
+  text-decoration: none;
+  color: #999;
 }
 blockquote {
   background: #fff url(/blog/wp-content/themes/wu-wei/images/blockquote.gif) no-repeat top left;
@@ -565,11 +574,14 @@ textarea#comment {
 }
 .center-column-sidebar {
   width: 67em;
-  margin: 0px
-auto;
+  margin: 0px auto;
+  margin-top: 64px;
   text-align: left;
   clear: both;
   overflow: hidden
+}
+.center-column-sidebar p {
+  font-size: 10pt
 }
 #sidebar {
   width: 67em;
@@ -580,7 +592,7 @@ auto;
 #sidebar
 li {
   display: inline;
-  width: 24em;
+  width: 100%;
   margin-right: 4em;
   overflow: hidden;
   float: left;
@@ -621,146 +633,10 @@ a {
   color: #6a797d;
   font-weight: bold
 }
-#footer a: hover {
-  color: #f33
-}
 .credits {
   float: left
 }
 .bottom-link {
   float: right
-}
-.dark {
-  background: #494949;
-  color: #fff
-}
-.dark a: link, .dark a: visited {
-  color: #AFD7F5
-}
-.dark a: hover {
-  color: #597298
-}
-.dark
-.pagetitle {
-  color: #fff;
-  border-top: 1px solid #666
-}
-.dark
-.navigation {
-  border-top: 1px solid #666
-}
-.dark
-hr {
-  color: #8F8F87;
-  background-color: #8F8F87
-}
-.dark .full-column {
-  border-bottom: 1px solid #666
-}
-.dark ul#menu li a: link, .dark ul#menu li a: visited {
-  color: #fff;
-  border-top: 3px solid #494949
-}
-.dark ul#menu li a: hover {
-  border-top: 3px solid #AFD7F5
-}
-.dark ul#menu li a
-span {
-  color: #999
-}
-.dark ul#menu li
-a.selected {
-  border-top: 3px solid #F1EFEB
-}
-.dark .blog-name a: link, .dark .blog-name a: visited {
-  color: #fff
-}
-.dark .blog-name a: hover {
-  color: #AFD7F5
-}
-.dark
-.description {
-  color: #F1EFEB
-}
-.dark
-h1 {
-  color: #fff
-}
-.dark h1 a: link, .dark h1 a: visited {
-  color: #fff
-}
-.dark h1 a: hover {
-  color: #AFD7F5
-}
-.dark .post, .dark
-.page {
-  border-top: 1px solid #666
-}
-.dark
-blockquote {
-  background: #494949 url('/blog/wp-content/themes/wu-wei/images/blockquote_dark.gif') no-repeat
-}
-.dark
-.timestamp {
-  color: #999
-}
-.dark .comment-bubble a: link, .dark .comment-bubble a: visited {
-  color: #fff;
-  background: url('/blog/wp-content/themes/wu-wei/images/comment-bubble_dark.gif') no-repeat 0 2px
-}
-.dark .comment-bubble a: hover {
-  color: #AFD7F5
-}
-.dark .post-meta-data {
-  border-top: 1px solid #666
-}
-.dark #comment-wrapper {
-  padding-left: 120px;
-  border-top: 1px solid #666
-}
-.dark
-h3#comments {
-  color: #fff
-}
-.dark ol.commentlist
-li {
-  border-top: 1px solid #666
-}
-.dark ol.commentlist
-li.bypostauthor {
-  border-top: 1px solid #ccc
-}
-.dark ol.commentlist li.comment-author-admin {
-  border-top: 1px solid #ccc
-}
-.dark
-#respond {
-  border-top: 1px solid #666
-}
-.dark #respond
-h3 {
-  color: #fff
-}
-.dark
-#commentform {
-  border-top: 1px solid #666
-}
-.dark
-#sidebar {
-  border-top: 1px solid #666
-}
-.dark #sidebar li
-h2 {
-  color: #fff
-}
-.dark
-#footer {
-  border-top: 3px solid #666
-}
-.dark #footer a: link, .dark #footer a: visited {
-  color: #fff
-}
-.dark #footer a: hover {
-  color: #AFD7F5
 }
 
