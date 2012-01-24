@@ -63,11 +63,11 @@ small {
   font-size: 0.75em
 }
 a:link, a:visited {
-  color: #999;
+  color: #b20;
   text-decoration: none
 }
 a:hover {
-  color: #2d6bb0
+  color: #000;
 }
 img {
   margin: 0
@@ -151,6 +151,7 @@ li {
   font-size: 0.887em;
   float: left;
   margin-right: 1.819em;
+  margin-left: 5px;
   padding: 0;
   display: block;
   list-style: none
@@ -180,15 +181,13 @@ ul#menu
   margin-right: 0
 }
 .blog-name {
-  color: #2d6bb0;
-  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
-  font-size: 6.4em;
+  font-size: 31pt;
   font-weight: 800;
   line-height: 1em;
   text-shadow: #e5e5ee 2px 2px 2px
 }
 .blog-name a {
-  color: #2d6bb0;
+  color: #b20;
 }
 .blog-name a:hover {
   color: #999;
