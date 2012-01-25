@@ -63,7 +63,7 @@ small {
   font-size: 0.75em
 }
 a:link, a:visited {
-  color: #b20;
+  color: #700;
   text-decoration: none
 }
 a:hover {
@@ -187,7 +187,7 @@ ul#menu
   text-shadow: #e5e5ee 2px 2px 2px
 }
 .blog-name a {
-  color: #b20;
+  color: #700;
 }
 .blog-name a:hover {
   color: #999;
