@@ -184,7 +184,8 @@ ul#menu
   font-size: 31pt;
   font-weight: 800;
   line-height: 1em;
-  text-shadow: #e5e5ee 2px 2px 2px
+  text-shadow: #e5e5ee 2px 2px 2px;
+  text-transform: uppercase;
 }
 .blog-name a {
   color: #700;
