@@ -5,7 +5,7 @@
  *
  * @package WordPress
  */
-#ddede
+
 /**
  * Tells WordPress to load the WordPress theme and output it.
  *

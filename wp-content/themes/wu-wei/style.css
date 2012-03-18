@@ -45,7 +45,7 @@ img {
   border: none
 }
 body {
-  background-color: #fff;
+  background : url(/wordpress/wp-content/themes/wu-wei/images/background.png) repeat top left;
   color: black;
   margin: 0;
   padding: 0;
@@ -80,7 +80,7 @@ img.alignright {
 }
 .full-column {
   border-bottom: 1px solid #999;
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 .center-column {
   width: 67em;
