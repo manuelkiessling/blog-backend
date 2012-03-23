@@ -19,7 +19,7 @@
             $twitter_title = substr($twitter_title, 0, 95).'...';
           }
           ?>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="<?php echo $twitter_title; ?>" data-via="manuelkiessling">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://manuel.kiessling.net<?php echo substr($_SERVER['REQUEST_URI'], 10); ?>" data-text="<?php echo $twitter_title; ?>" data-via="manuelkiessling">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
           <br />
