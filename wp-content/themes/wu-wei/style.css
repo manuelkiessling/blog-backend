@@ -32,6 +32,7 @@ code, code p {
   color: white;
   display: block;
   padding: 16px;
+  margin-bottom: 1.5em;
   border-radius: 12px;
   white-space: pre;
   line-height: 1.2em;
