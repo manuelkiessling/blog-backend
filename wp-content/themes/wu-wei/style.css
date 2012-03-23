@@ -253,6 +253,10 @@ h1 a: hover {
   color: #999;
   padding-left: 1px;
 }
+#sharing {
+  margin-top: 1.5em;
+  opacity: 0.6;
+}
 .post-content {
   color: black;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
