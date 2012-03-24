@@ -433,7 +433,9 @@ td {
   border: 1px solid #999
 }
 #comment-wrapper {
-  border-top: 1px solid #999
+  border-top: 1px solid #999;
+  background-color: #fff;
+  padding: 32px;
 }
 h3#comments {
   font-size: 1.15em;
