@@ -41,6 +41,11 @@
 
 			<div class="post-content single">
 				<?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
+        <div id="twitterfollow">
+          <span class="note">If you would like to be informed on updates to this post, just</span>
+          <a href="https://twitter.com/manuelkiessling" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @manuelkiessling</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
 
 				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
