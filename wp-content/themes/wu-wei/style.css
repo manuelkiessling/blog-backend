@@ -26,6 +26,16 @@ ins {
 del {
   text-decoration: line-through
 }
+.filename.beforecode {
+  font-size: 11pt;
+  background-color: black;
+  color: #999;
+  border-radius: 12px 12px 0 0;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 code, code p {
   font-size: 11pt;
   background-color: black;
