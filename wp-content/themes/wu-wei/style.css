@@ -282,6 +282,9 @@ h1 a: hover {
 .post-content.single {
   width: 42.5em;
 }
+.post-content .introduction {
+  color: #2D6BB0;
+}
 .post-content
 h2 {
   font-size: 2.0em;
