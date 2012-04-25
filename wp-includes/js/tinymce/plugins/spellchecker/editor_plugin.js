@@ -1,0 +1,1 @@
+../../../../../../tinymce/www/plugins/spellchecker/editor_plugin.js

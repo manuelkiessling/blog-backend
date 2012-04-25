@@ -1,0 +1,1 @@
+../../../../tinymce/www/tiny_mce.js
