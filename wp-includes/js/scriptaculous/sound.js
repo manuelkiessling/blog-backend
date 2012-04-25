@@ -1,1 +1,0 @@
-../../../../javascript/scriptaculous/sound.js

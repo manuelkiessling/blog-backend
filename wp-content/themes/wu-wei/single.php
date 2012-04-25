@@ -32,6 +32,24 @@
              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
             })();
           </script>
+
+          <br/>
+
+          <?php
+          $hn_title = get_the_title();
+          if (strlen($hn_title) > 79) {
+            $hn_title = substr($hn_title, 0, 76).'...';
+          }   
+          ?>  
+          <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="<?php echo $hn_title; ?>" data-url="http://manuel.kiessling.net<?php echo substr($_SERVER['REQUEST_URI'], 10); ?>">Vote on HN</a>
+          <script>
+            (function(d, t) {
+              var g = d.createElement(t),
+                  s = d.getElementsByTagName(t)[0];
+              g.src = '//hnbutton.appspot.com/static/hn.js';
+              s.parentNode.insertBefore(g, s);
+            }(document, 'script'));
+          </script>
        </div>
 
         <div class="clearboth"><!-- --></div>
