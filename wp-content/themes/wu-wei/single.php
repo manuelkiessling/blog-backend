@@ -12,48 +12,6 @@
 
         <div class="clearboth"><!-- --></div>
 
-        <div id="sharing">
-        <?php
-          $twitter_title = get_the_title();
-          if (strlen($twitter_title) > 98) {
-            $twitter_title = substr($twitter_title, 0, 95).'...';
-          }
-          ?>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://manuel.kiessling.net<?php echo substr($_SERVER['REQUEST_URI'], 10); ?>" data-text="<?php echo $twitter_title; ?>" data-via="manuelkiessling">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-          <br />
-
-          <g:plusone size="medium" annotation="inline" width="300"></g:plusone>
-          <script type="text/javascript">
-            (function() {
-              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-              po.src = 'https://apis.google.com/js/plusone.js';
-             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-            })();
-          </script>
-
-          <br/>
-
-          <?php
-          $hn_title = get_the_title();
-          if (strlen($hn_title) > 79) {
-            $hn_title = substr($hn_title, 0, 76).'...';
-          }   
-          ?>  
-          <a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="<?php echo $hn_title; ?>" data-url="http://manuel.kiessling.net<?php echo substr($_SERVER['REQUEST_URI'], 10); ?>">Vote on HN</a>
-          <script>
-            (function(d, t) {
-              var g = d.createElement(t),
-                  s = d.getElementsByTagName(t)[0];
-              g.src = '//hnbutton.appspot.com/static/hn.js';
-              s.parentNode.insertBefore(g, s);
-            }(document, 'script'));
-          </script>
-       </div>
-
-        <div class="clearboth"><!-- --></div>
-
 			</div>
 
 
@@ -117,9 +75,7 @@
         ?>
 
         <div id="twitterfollow">
-          <span class="note">If you would like to be informed on updates to this post, just</span>
-          <a href="https://twitter.com/manuelkiessling" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @manuelkiessling</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <span class="note">If you would like to be informed on updates to this post, just <a href="https://twitter.com/manuelkiessling">follow @manuelkiessling</a></span>
         </div>
 
 				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
