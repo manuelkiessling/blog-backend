@@ -27,7 +27,8 @@ del {
   text-decoration: line-through
 }
 .filename.beforecode {
-  font-size: 11pt;
+  font-family: monospace;
+  font-size: 10pt;
   background-color: black;
   color: #999;
   border-radius: 12px 12px 0 0;
@@ -37,7 +38,7 @@ del {
   padding-right: 16px;
 }
 code, code p {
-  font-size: 11pt;
+  font-size: 10pt;
   background-color: black;
   color: white;
   display: block;
@@ -450,7 +451,7 @@ tr {
 table tr
 td {
   padding: 0.5em;
-  border: 1px solid #999
+  border: 1px dotted #777
 }
 #twitterfollow {
   font-size: 12pt;
