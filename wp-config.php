@@ -10,10 +10,10 @@
  */
 $debian_server = preg_replace('/:.*/', "", $_SERVER['HTTP_HOST']);
 $debian_server = preg_replace("/[^a-zA-Z0-9.\-]/", "", $debian_server);
-$debian_file = 'config-'.strtolower($debian_server).'.php';
+$debian_file = '/var/www/wordpress/config-'.strtolower($debian_server).'.php';
 /* Main site in case of multisite with subdomains */
 $debian_main_server = preg_replace("/^[^.]*\./", "", $debian_server);
-$debian_main_file = 'config-'.strtolower($debian_main_server).'.php';
+$debian_main_file = '/var/www/wordpress/config-'.strtolower($debian_main_server).'.php';
 
 if (file_exists($debian_file)) {
     require_once($debian_file);
