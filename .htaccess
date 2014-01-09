@@ -1,1 +1,19 @@
-/etc/wordpress/htaccess
+# For rewrite rules needed for making Wordpress URL friendly
+# See Options -> Permalinks for details and please use the defaults,
+# especially in mind when hosting several blogs on one machine!
+
+<IfModule mod_php5.c>
+    <FilesMatch "\.php$">
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^(.*)wp-content(.*)$
+RewriteRule . /wordpress/index.php [L]
+</IfModule>
+
