@@ -60,13 +60,12 @@ img {
   border: none
 }
 body {
-  background : url(/wordpress/wp-content/themes/wu-wei/images/background.png) repeat top left;
   color: black;
   margin: 0;
   padding: 0;
   text-align: center;
   font-size: 75%;
-  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-family: "Lato","Helvetica Neue",Arial,Helvetica,sans-serif;
   text-shadow: 0 -1px 1px rgba(255,255,255,0.005)
 }
 p {
@@ -78,7 +77,7 @@ small {
   font-size: 0.75em
 }
 a:link, a:visited {
-  color: #700;
+  color: #FF2D55;
   text-decoration: none
 }
 a:hover {
@@ -95,7 +94,6 @@ img.alignright {
 }
 .full-column {
   border-bottom: 1px solid #888;
-  box-shadow: 0 0 18px rgba(0,0,0,0.5);
   background-color: #fff;
   padding-bottom: 6px;
   margin-top: -8px;
@@ -180,7 +178,6 @@ ul#menu li a: link, ul#menu li a: visited {
   line-height: 1em;
   width: 9.08em;
   color: #999;
-  font-weight: bold;
   text-decoration: none;
   border-top: 3px solid #fff;
   text-transform: lowercase
@@ -199,14 +196,13 @@ ul#menu
   margin-right: 0
 }
 .blog-name {
-  font-size: 31pt;
-  font-weight: 800;
+  font-size: 33pt;
   line-height: 1em;
   text-shadow: #e5e5ee 2px 2px 2px;
   text-transform: uppercase;
 }
 .blog-name a {
-  color: #700;
+  color: #FF2D55;
 }
 .blog-name a:hover {
   color: #999;
@@ -218,7 +214,7 @@ ul#menu
 }
 #header {
   font-size: 54%;
-  padding: 3em 0;
+  padding: 6em 0;
   text-align: center;
 }
 .post,.page {
@@ -234,9 +230,9 @@ ul#menu
   border-top: 3px solid #999
 }
 h1 {
+  font-weight: 300;
   color: #999;
   font-size: 14pt;
-  font-weight: bold;
   line-height: 1.2em;
   padding-bottom: 0.1em;
   text-shadow: #e5e5ee 1px 1px 0px
@@ -259,7 +255,7 @@ h1 a: hover {
   margin-bottom: 24px;
 }
 .post-info h1 a {
-  color: #2d6bb0;
+  color: #007AFF;
 }
 .post-info h1 a:hover {
     color: #999;
@@ -276,7 +272,7 @@ h1 a: hover {
 }
 .post-content {
   color: black;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
   font-size: 14pt;
   float: left;
   text-align: justify;
@@ -293,34 +289,30 @@ h1 a: hover {
 h2 {
   font-size: 2.0em;
   margin-bottom: 0.75em;
-  font-weight: normal;
   text-align: left;
 }
 .post-content
 h3 {
   font-size: 1.5em;
   margin-bottom: 1em;
-  font-weight: normal;
   text-align: left;
 }
 .post-content
 h4 {
   font-size: 1.167em;
   margin-bottom: 0.867em;
-  font-weight: normal;
   text-align: left;
 }
 .post-content a {
-  color: #2d6bb0;
+  color: #007AFF;
 }
 .post-content a:hover {
   text-decoration: underline;
 }
 .post-content a.readmore {
-  color: #700;
+  color: #FF2D55;
   font-size: 12pt;
-  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
-  font-weight: normal;
+  font-family: "Lato","Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 .post-content a.readmore:hover {
   text-decoration: none;
@@ -371,7 +363,6 @@ dl {
   margin: 0 0 1.5em
 }
 dt {
-  font-weight: bold;
   font-size: 1.167em
 }
 dd {
@@ -485,7 +476,6 @@ h3#comments {
   height: 100%;
   padding: 0.333em 0;
   color: #999;
-  font-weight: normal
 }
 h3#comments
 span {
@@ -571,7 +561,6 @@ h3 {
   font-size: 1.25em;
   color: #959ea1;
   padding: 0.333em 0;
-  font-weight: normal
 }
 .cancel-comment-reply {
   position: absolute;
@@ -608,7 +597,7 @@ textarea#comment {
   width: 32.857em;
   height: 200px;
   font-size: 1em;
-  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif
+  font-family: "Lato","Helvetica Neue",Arial,Helvetica,sans-serif
 }
 .comment-box {
   margin-bottom: 200px
@@ -641,15 +630,13 @@ textarea#comment {
   font-size: 10pt
 }
 #sidebar {
-  background-color: #D9D9D9;
   width: 67em;
-  border-top: 4em solid #999;
+  border-top: 1px solid #999;
   margin: 4em 0 1em 0;
   padding: 1em 0 0 0
 }
 #sidebar
 li {
-  background-color: #D9D9D9;
   display: inline;
   width: 100%;
   margin-right: 4em;
@@ -690,7 +677,6 @@ a {
   margin: 0;
   padding: 0;
   color: #6a797d;
-  font-weight: bold
 }
 .credits {
   float: left
@@ -737,7 +723,6 @@ a {
     padding-bottom: 24px;
     font-size: 32px;
     font-style: italic;
-    font-weight: bold;
     color: white;
 }
 
@@ -782,7 +767,6 @@ a {
 }
 
 .buy-the-bundle strong.price.dollarsign {
-    font-weight: normal;
 }
 
 .buy-the-bundle .buy {
@@ -812,7 +796,6 @@ a {
 
 .buttonlink {
     text-decoration: none;
-    font-weight: bold;
     font-size: 15px;
     color: #fff;
     text-shadow: 0.1em 0.1em #666;

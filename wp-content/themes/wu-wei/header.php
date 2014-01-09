@@ -8,7 +8,7 @@
 
 <meta name="description" content="<?php bloginfo('description'); ?>" />
 
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
