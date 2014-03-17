@@ -627,7 +627,7 @@ textarea#comment {
   overflow: hidden
 }
 .center-column-sidebar p {
-  font-size: 10pt
+  font-size: 12pt
 }
 #sidebar {
   width: 67em;
@@ -646,7 +646,7 @@ li {
 }
 #sidebar
 .widget {
-  font-size: 1.167em;
+  font-size: 12pt;
   line-height: 1.5em
 }
 #sidebar li
@@ -662,7 +662,7 @@ a {
 #sidebar img {
   float: left;
   margin-top: 5px;
-  margin-right: 32px;
+  margin-right: 107px;
   margin-bottom: 140px;
 }
 #footer {
