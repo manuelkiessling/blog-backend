@@ -203,6 +203,7 @@ ul#menu
 }
 .blog-name a {
   color: #FF1300;
+  white-space: nowrap;
 }
 .blog-name a:hover {
   color: #999;
