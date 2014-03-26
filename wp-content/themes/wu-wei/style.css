@@ -81,7 +81,7 @@ a:link, a:visited {
   text-decoration: none
 }
 a:hover {
-  color: #000;
+  text-decoration: underline;
 }
 img {
   margin: 0
@@ -205,9 +205,6 @@ ul#menu
   color: #FF1300;
   white-space: nowrap;
 }
-.blog-name a:hover {
-  color: #999;
-}
 .description {
   margin-top: 0.5em;
   font-size: 1.25em;
@@ -242,9 +239,6 @@ h1 a: link, h1 a: visited {
   color: #999;
   text-decoration: none
 }
-h1 a: hover {
-  color: #999
-}
 .post-info {
   float: left;
   width: 18.333em;
@@ -258,9 +252,6 @@ h1 a: hover {
 .post-info h1 a {
   color: #007AFF;
 }
-.post-info h1 a:hover {
-    color: #999;
-  }
 .timestamp {
   float: left;
   font-size: 1.2em;
@@ -307,17 +298,8 @@ h4 {
 .post-content a {
   color: #007AFF;
 }
-.post-content a:hover {
-  text-decoration: underline;
-}
 .post-content a.readmore {
-  color: #FF1300;
   font-size: 12pt;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.post-content a.readmore:hover {
-  text-decoration: none;
-  color: #000;
 }
 #projects {
   text-align: left;
