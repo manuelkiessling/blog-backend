@@ -49,6 +49,11 @@ code, code p {
   line-height: 1.2em;
   overflow-x: auto;
 }
+code span.highlight {
+  background-color: #070;
+  display: block;
+  margin-bottom: -16px;
+}
 code span.addedline {
   color: #0f0;
 }
