@@ -86,6 +86,7 @@
 
 		</div>
 
+    <a name="comments" />
 	<?php comments_template(); ?>
 
 	<?php endwhile; else: ?>
