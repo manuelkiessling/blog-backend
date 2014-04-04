@@ -10,8 +10,6 @@
 
 </div>
 
-<!-- Designed by Jeff Ngan - http://equivocality.com/wu-wei/ -->
-
 <?php wp_footer(); ?>
 
 </div>

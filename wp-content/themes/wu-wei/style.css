@@ -1,4 +1,5 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,acronym,abbr,blockquote,pre,a,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,acronym,abbr,blockquote,a,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+
   margin: 0;
   padding: 0;
   border: 0;
@@ -37,7 +38,12 @@ del {
   padding-left: 16px;
   padding-right: 16px;
 }
-code, code p {
+pre {
+  margin-top: -24px;
+  padding: 0;
+  border: 0;
+}
+code {
   font-size: 10pt;
   background-color: black;
   color: white;
@@ -342,11 +348,6 @@ li {
 .post-content ul li ul, .post-content ol li ol, .post-content ul li ol, .post-content ol li
 ul {
   font-size: 1.0em
-}
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  margin: 0 0 1.5em
 }
 dl {
   margin: 0 0 1.5em
