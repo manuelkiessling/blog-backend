@@ -21,29 +21,29 @@ include(dirname(__FILE__).'/themetoolkit.php');
  ************************************************************************************/
 
 themetoolkit(
-	'WuWei', /* Make yourself at home :
-			* Name of the variable that will contain all the options of
-			* your theme admin menu (in the form of an array)
-			* Name it according to PHP naming rules (http://php.net/variables) */
+    'WuWei', /* Make yourself at home :
+            * Name of the variable that will contain all the options of
+            * your theme admin menu (in the form of an array)
+            * Name it according to PHP naming rules (http://php.net/variables) */
 
-	array(     /* Variables used by your theme features (i.e. things the end user will
-			* want to customize through the admin menu)
- 			* Syntax :
-			* 'option_variable' => 'Option Title ## optionnal explanations',
-			* 'option_variable' => 'Option Title {radio|value1|Text1|value2|Text2} ## optionnal explanations',
-			* 'option_variable' => 'Option Title {textarea|rows|cols} ## optionnal explanations',
-			* 'option_variable' => 'Option Title {checkbox|option_varname1|value1|Text1|option_varname2|value2|Text2} ## optionnal explanations',
-			* Examples :
-			* 'your_age' => 'Your Age',
-			* 'cc_number' => 'Credit Card Number ## I can swear I will not misuse it :P',
-			* 'gender' => 'Gender {radio|girl|You are a female|boy|You are a male} ## What is your gender ?'
-			* Dont forget the comma at the end of each line ! */
-	'colour' => 'Colour scheme {radio|default|Light (default)|dark|Dark} ## Chose one.',
-	),
-	__FILE__	 /* Parent. DO NOT MODIFY THIS LINE !
-			  * This is used to check which file (and thus theme) is calling
-			  * the function (useful when another theme with a Theme Toolkit
-			  * was installed before */
+    array(     /* Variables used by your theme features (i.e. things the end user will
+            * want to customize through the admin menu)
+             * Syntax :
+            * 'option_variable' => 'Option Title ## optionnal explanations',
+            * 'option_variable' => 'Option Title {radio|value1|Text1|value2|Text2} ## optionnal explanations',
+            * 'option_variable' => 'Option Title {textarea|rows|cols} ## optionnal explanations',
+            * 'option_variable' => 'Option Title {checkbox|option_varname1|value1|Text1|option_varname2|value2|Text2} ## optionnal explanations',
+            * Examples :
+            * 'your_age' => 'Your Age',
+            * 'cc_number' => 'Credit Card Number ## I can swear I will not misuse it :P',
+            * 'gender' => 'Gender {radio|girl|You are a female|boy|You are a male} ## What is your gender ?'
+            * Dont forget the comma at the end of each line ! */
+    'colour' => 'Colour scheme {radio|default|Light (default)|dark|Dark} ## Chose one.',
+    ),
+    __FILE__     /* Parent. DO NOT MODIFY THIS LINE !
+              * This is used to check which file (and thus theme) is calling
+              * the function (useful when another theme with a Theme Toolkit
+              * was installed before */
 );
 
 /************************************************************************************
@@ -64,12 +64,12 @@ themetoolkit(
 
 function setColourScheme() {
 
-	global $WuWei;
+    global $WuWei;
 
-	$default    = "1";
-	$colour	 	= $WuWei->option['colour'];
+    $default    = "1";
+    $colour         = $WuWei->option['colour'];
 
-	echo $colour;
+    echo $colour;
 
 }
 

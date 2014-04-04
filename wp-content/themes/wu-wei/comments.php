@@ -1,20 +1,20 @@
 <?php
 
 // Do not delete these lines
-	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
-		die ('Please do not load this page directly. Thanks!');
+    if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
+        die ('Please do not load this page directly. Thanks!');
 
-	if ( post_password_required() ) { ?>
+    if ( post_password_required() ) { ?>
 
-		<div id="comment-wrapper">
+        <div id="comment-wrapper">
 
-			<h3 id="comments" id="comment-<?php comment_ID(); ?>">Enter the password to view comments.</h3>
+            <h3 id="comments" id="comment-<?php comment_ID(); ?>">Enter the password to view comments.</h3>
 
-		</div>
+        </div>
 
-	<?php
-		return;
-	}
+    <?php
+        return;
+    }
 ?>
 
 <!-- You can start editing here. -->
