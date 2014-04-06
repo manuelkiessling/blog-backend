@@ -19,7 +19,7 @@
                     <li><a href="/wordpress/contact/"><span></span><br />CONTACT</a></li>
                     <li><a href="http://photographs.manuel.kiessling.net/"><span></span><br />PHOTOGRAPHS</a></li>
                     <li><a href="<?php bloginfo('rss2_url'); ?>"><span></span><br />RSS</a></li>
-                    <li class="last"><a href="#sidebar"><span></span><br />ABOUT</a></li>
+                    <li><a href="#about"><span></span><br />ABOUT</a></li>
                 </ul>
                 <div class="clearboth"><!-- --></div>
             </div>
