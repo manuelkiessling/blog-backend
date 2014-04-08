@@ -38,7 +38,7 @@ del {
   color: #999;
   border-radius: 12px 12px 0 0;
   padding-top: 8px;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -647,14 +647,14 @@ a {
 }
 #footer .image {
   float: left;
-  width: 260px;
+  width: 410px;
   margin: 0 40px 0 0;
 }
 #footer .text {
   padding-top: 8px;
   color: black;
   float: left;
-  width: 580px;
+  width: 430px;
 }
 #footer .text p {
   font-size: 12pt;
@@ -685,6 +685,9 @@ a {
   }
   #footer .image, #footer .text {
     width: 100%;
+  }
+  #footer .text {
+    padding-top: 36px;
   }
   #footer {
     height: 600px;
