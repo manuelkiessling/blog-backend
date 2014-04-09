@@ -647,14 +647,14 @@ a {
 }
 #footer .image {
   float: left;
-  width: 410px;
+  width: 400px;
   margin: 0 40px 0 0;
 }
 #footer .text {
   padding-top: 8px;
   color: black;
   float: left;
-  width: 430px;
+  width: 440px;
 }
 #footer .text p {
   font-size: 12pt;
