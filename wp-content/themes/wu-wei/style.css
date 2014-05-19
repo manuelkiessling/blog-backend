@@ -663,6 +663,9 @@ a {
 }
 
 @media screen and (max-width: 912px), screen and (max-device-width: 912px) {
+  ul#menu {
+    display: none;
+  }
   .center-column, .post-content {
     width: 89%;
   }
