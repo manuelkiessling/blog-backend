@@ -62,6 +62,14 @@ code {
 code span.highlight, code span.addedline {
   color: #0f0;
 }
+code.inline {
+  display: inline;
+  padding: 4px;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  line-height: auto;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0
