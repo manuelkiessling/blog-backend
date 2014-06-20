@@ -15,7 +15,6 @@
             <div class="center-column">
                 <ul id="menu">
                     <li><a href="<?php echo get_option('home'); ?>/" <?php if(is_home()) {echo 'class="selected"';} ?>><span></span><br />HOME</a></li>
-                    <li><a href="/wordpress/agile-software-and-systems-newsletter/"><span></span><br /><strong>NEW:</strong> AGILE SOFTWARE AND SYSTEMS NEWSLETTER</a></li>
                     <li><a href="/wordpress/projects/"><span></span><br />PROJECTS</a></li>
                     <li><a href="/wordpress/contact/"><span></span><br />CONTACT</a></li>
                     <li><a href="<?php bloginfo('rss2_url'); ?>"><span></span><br />RSS</a></li>
