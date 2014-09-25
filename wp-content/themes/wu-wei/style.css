@@ -13,7 +13,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Roboto", "Helvetica", sans-serif;
-  line-height: 1.5
+  line-height: 1.5;
   background-color: #fffefe;
 }
 blockquote,q {
@@ -37,13 +37,15 @@ del {
   -moz-osx-font-smoothing: auto;
   font-family: monospace;
   font-size: 10pt;
-  background-color: black;
+  background-color: #f2fff2;
   color: #999;
   border-radius: 12px 12px 0 0;
   padding-top: 8px;
   padding-bottom: 24px;
   padding-left: 16px;
   padding-right: 16px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
 }
 pre {
   margin-top: -24px;
@@ -55,8 +57,8 @@ code {
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: auto;
   font-size: 10pt;
-  background-color: black;
-  color: white;
+  background-color: #f7fff7;
+  color: black;
   display: block;
   padding: 16px;
   margin-bottom: 1.5em;
@@ -64,9 +66,10 @@ code {
   white-space: pre;
   line-height: 1.2em;
   overflow-x: auto;
+  border: 1px solid #ddd;
 }
 code span.highlight, code span.addedline {
-  color: #0f0;
+  color: #080;
 }
 code.inline {
   display: inline;
@@ -85,21 +88,20 @@ img {
   border: none
 }
 p {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14pt;
   line-height: 1.5em;
-  margin: 0 0 1.5em
+  margin: 0 0 1.5em;
 }
 div.single p {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #222;
+  color: #000;
   font-family: "Roboto Slab";
-  font-size: 15pt;
-  font-weight: 300;
-  letter-spacing: -0.01rem;
-  line-height: 1.6em;
+  font-size: 14pt;
+  letter-spacing: -0.02rem;
+  line-height: 1.5em;
   margin: 0 0 1.5em;
+  text-align: left;
+  width: 80%;
 }
 small {
   font-size: 0.75em
@@ -123,7 +125,7 @@ img.alignright {
 }
 .full-column {
   border-bottom: 1px solid #888;
-  background-color: #fff;
+  background-color: #777;
   padding-bottom: 6px;
   margin-top: -8px;
 }
@@ -204,6 +206,9 @@ li {
   list-style: none;
   opacity: 0.5;
 }
+ul#menu li a {
+  color: #fff;
+}
 ul#menu li a: link, ul#menu li a: visited {
   display: block;
   padding: 7px 0 10px;
@@ -226,7 +231,7 @@ span {
   text-transform: uppercase;
 }
 .blog-name a {
-  color: #FF1300;
+  color: #FF7C5B;
   white-space: nowrap;
 }
 .description {
@@ -255,7 +260,7 @@ h1 {
   font-weight: 300;
   color: #999;
   font-size: 14pt;
-  line-height: 1.2em;
+  line-height: 1.5em;
   padding-bottom: 0.1em;
   text-shadow: #e5e5ee 1px 1px 0px
 }
@@ -274,7 +279,7 @@ h1 a: link, h1 a: visited {
   margin-bottom: 24px;
 }
 .post-info h1 a {
-  color: #007AFF;
+  color: #355CCC;
 }
 .post-info.single h1 {
   font-weight: 100;
@@ -324,7 +329,7 @@ h4 {
   text-align: left;
 }
 .post-content a {
-  color: #007AFF;
+  color: #355CCC;
 }
 .post-content a.readmore {
   font-weight: 100;
@@ -350,17 +355,21 @@ blockquote {
 * html .pull-1, * html .pull-2 {
   position: relative
 }
-.post-content ul, .post-content
-ol {
-  margin: 0 0 1.5em;
+.post-content ul, .post-content ol {
+  list-style: square outside;
+  width: 80%;
+  font-family: "Roboto Slab";
+  letter-spacing: -0.02rem;
+  line-height: 1.5em;
+  margin: 0;
   padding: 0;
-  font-size: 14pt
+  font-size: 14pt;
+  text-align: left;
 }
-.post-content ul li, .post-content ol
-li {
-  margin-left: 3em;
-  padding-left: 0em;
-  line-height: 1.5em
+.post-content ul li, .post-content ol li {
+  margin-left: -4px;
+  padding-left: 4px;
+  padding-bottom: 1.5em;
 }
 .post-content ul li ul, .post-content ol li ol, .post-content ul li ol, .post-content ol li
 ul {
@@ -693,28 +702,43 @@ a {
 }
 
 @media screen and (max-width: 912px), screen and (max-device-width: 912px) {
-  ul#menu {
+  .full-column {
     display: none;
   }
-  .center-column, .post-content {
-    width: 89%;
+  .post, .page {
+    border-top: 2px dotted #999;
   }
-  .post-content, .post-info, .post-info.single  {
+  .center-column {
+    margin: 0;
+    padding: 16px;
+    padding-left: 32px;
+    width: 94%;
+  }
+  .post-content, .post-info, .post-info.single, .post-content ul, .post-content ol  {
     width: 100%;
   }
-  h1 {
-    font-size: 18pt;
+  p, .post-content a.readmore, .timestamp, .post-content ul, .post-content ol {
+    font-size: 36pt;
   }
-  p, .post-content a.readmore {
-    font-size: 16pt;
+  div.single p > a {
+    word-break: break-all;
+  }
+  h1, .post-info.single h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    font-size: 48pt;
+    font-weight: 300;
+  }
+  div.single p {
+    width: 100%;
+    font-size: 36pt;
+  }
+  span.filename, span.beforecode {
+    position: relative;
+    top: 61px
   }
   .blog-name a {
+    font-weight: 300;
+    font-size: 35pt;
     white-space: normal;
-  }
-  ul#menu li {
-    float: none;
-    text-align: center;
-    line-height: normal;
   }
   #footer .image, #footer .text {
     width: 100%;
@@ -723,11 +747,11 @@ a {
     padding-top: 36px;
   }
   #footer {
-    height: 600px;
+    height: 800px;
   }
   #footer .text p {
     text-align: left;
-    font-size: 16pt;
+    font-size: 36pt;
     padding-left: 16px;
     padding-right: 16px;
   }
