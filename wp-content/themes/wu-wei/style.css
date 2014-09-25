@@ -366,6 +366,12 @@ blockquote {
   font-size: 14pt;
   text-align: left;
 }
+.post-content ul > li > ul {
+  margin-left: 23px;
+}
+.post-content ul > li > ul > li{
+  padding-bottom: 0;
+}
 .post-content ul li, .post-content ol li {
   margin-left: -4px;
   padding-left: 4px;
