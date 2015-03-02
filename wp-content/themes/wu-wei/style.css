@@ -101,7 +101,7 @@ div.single p {
   line-height: 1.5em;
   margin: 0 0 1.5em;
   text-align: left;
-  width: 80%;
+  width: 100%;
 }
 small {
   font-size: 0.75em
@@ -736,6 +736,9 @@ a {
   div.single p {
     width: 100%;
     font-size: 36pt;
+  }
+  code.inline {
+    font-size: 26pt;
   }
   span.filename, span.beforecode {
     position: relative;
