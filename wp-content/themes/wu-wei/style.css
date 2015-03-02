@@ -56,7 +56,7 @@ pre {
 code {
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: auto;
-  font-size: 10pt;
+  font-size: 8pt;
   background-color: #f7fff7;
   color: black;
   display: block;
@@ -74,10 +74,12 @@ code span.highlight, code span.addedline {
 code.inline {
   display: inline;
   padding: 4px;
+  padding-bottom: 1px;
   border: 0;
   border-radius: 0;
   margin: 0;
   line-height: auto;
+  font-size: 12pt;
 }
 table {
   border-collapse: collapse;
@@ -96,7 +98,7 @@ p {
 div.single p {
   color: #000;
   font-family: "Roboto Slab";
-  font-size: 14pt;
+  font-size: 12pt;
   letter-spacing: -0.02rem;
   line-height: 1.5em;
   margin: 0 0 1.5em;
@@ -130,7 +132,7 @@ img.alignright {
   margin-top: -8px;
 }
 .center-column {
-  width: 880px;
+  width: 640px;
   margin: 0px auto;
   padding-left: 16px;
   padding-right: 16px;
@@ -225,7 +227,7 @@ span {
 }
 .blog-name {
   font-weight: 100;
-  font-size: 38pt;
+  font-size: 27pt;
   line-height: 1em;
   text-shadow: #e5e5ee 2px 2px 2px;
   text-transform: uppercase;
@@ -259,8 +261,8 @@ span {
 h1 {
   font-weight: 300;
   color: #999;
-  font-size: 14pt;
-  line-height: 1.5em;
+  font-size: 18pt;
+  line-height: 1.2em;
   padding-bottom: 0.1em;
   text-shadow: #e5e5ee 1px 1px 0px
 }
@@ -270,7 +272,7 @@ h1 a: link, h1 a: visited {
 }
 .post-info {
   float: left;
-  width: 260px;
+  width: 100%;
   margin: 0 40px 0 0
 }
 .post-info.single {
@@ -283,7 +285,7 @@ h1 a: link, h1 a: visited {
 }
 .post-info.single h1 {
   font-weight: 100;
-  font-size: 42pt;
+  font-size: 28pt;
 }
 .timestamp {
   font-weight: 100;
@@ -363,7 +365,7 @@ blockquote {
   line-height: 1.5em;
   margin: 0;
   padding: 0;
-  font-size: 14pt;
+  font-size: 12pt;
   text-align: left;
 }
 .post-content ul > li > ul {
@@ -724,25 +726,20 @@ a {
     width: 100%;
   }
   p, .post-content a.readmore, .timestamp, .post-content ul, .post-content ol {
-    font-size: 36pt;
+    font-size: 12pt;
   }
   div.single p > a {
     word-break: break-all;
   }
   h1, .post-info.single h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-    font-size: 48pt;
+    font-size: 28pt;
     font-weight: 300;
   }
-  div.single p {
-    width: 100%;
-    font-size: 36pt;
-  }
   code.inline {
-    font-size: 26pt;
+    font-size: 12pt;
   }
   span.filename, span.beforecode {
-    position: relative;
-    top: 61px
+    display: none;
   }
   .blog-name a {
     font-weight: 300;
