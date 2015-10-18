@@ -80,6 +80,7 @@ code.inline {
   margin: 0;
   line-height: auto;
   font-size: 12pt;
+  white-space: normal;
 }
 table {
   border-collapse: collapse;
