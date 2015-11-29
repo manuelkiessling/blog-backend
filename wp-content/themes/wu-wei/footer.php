@@ -1,11 +1,11 @@
             <a name="about"></a>
             <div id="footer">
                 <div class="image">
-                    <img src="http://www.gravatar.com/avatar/8b50d5d8199a12f00cfbfd1061e224a9.png?s=160" width="160" alt="Photograph of Manuel Kiessling" title="Manuel Kiessling" />
+                    <img src="http://www.gravatar.com/avatar/8b50d5d8199a12f00cfbfd1061e224a9.png?s=640" width="160" alt="Photograph of Manuel Kiessling" title="Manuel Kiessling" />
                 </div>
                 <div class="text">
                     <p>
-                        This is the homepage and blog of <a href="https://plus.google.com/100272082905360445612?rel=author">Manuel Kiessling</a>. 
+                        This is the homepage and blog of <a href="https://plus.google.com/100272082905360445612?rel=author">Manuel&nbsp;Kiessling</a>.
                     </p>
                     <p>
                         I'm a software architect, test driven developer, linux admin, agilist, author of <a href="http://www.nodebeginner.org/">NodeBeginner.org</a>, and father of two.

@@ -695,7 +695,7 @@ a {
 }
 #footer .image {
   float: left;
-  width: 400px;
+  width: 160px;
   margin: 0 40px 0 0;
 }
 #footer .text {
@@ -710,7 +710,7 @@ a {
   padding-right: 16px;
 }
 
-@media screen and (max-width: 912px), screen and (max-device-width: 912px) {
+@media screen and (max-width: 736px), screen and (max-device-width: 736px) {
   .full-column {
     display: none;
   }
@@ -721,13 +721,18 @@ a {
     margin: 0;
     padding: 16px;
     padding-left: 32px;
-    width: 94%;
+    width: 90%;
   }
   .post-content, .post-info, .post-info.single, .post-content ul, .post-content ol  {
     width: 100%;
   }
   p, .post-content a.readmore, .timestamp, .post-content ul, .post-content ol {
     font-size: 12pt;
+  }
+  .post-content ul li, .post-content ol li {
+    margin-left: 24px;
+    padding-left: 4px;
+    padding-bottom: 1.5em;
   }
   div.single p > a {
     word-break: break-all;
@@ -748,7 +753,11 @@ a {
     white-space: normal;
   }
   #footer .image, #footer .text {
+    text-align: center;
     width: 100%;
+  }
+  #footer .image img {
+    width: 320px;
   }
   #footer .text {
     padding-top: 36px;
@@ -757,8 +766,10 @@ a {
     height: 800px;
   }
   #footer .text p {
-    text-align: left;
-    font-size: 36pt;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 18pt;
     padding-left: 16px;
     padding-right: 16px;
   }
