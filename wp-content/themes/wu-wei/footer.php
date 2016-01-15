@@ -8,7 +8,7 @@
                         This is the homepage and blog of <a href="https://plus.google.com/100272082905360445612?rel=author">Manuel&nbsp;Kiessling</a>.
                     </p>
                     <p>
-                        I'm a software architect, test driven developer, linux admin, agilist, author of <a href="http://www.nodebeginner.org/">NodeBeginner.org</a>, and father of two.
+                        I'm a software architect, test driven developer, linux admin, agilist, <a href="https://leanpub.com/u/manuelkiessling">book author</a>, and father of two.
                     </p>
                     <p>
                         Follow me on Twitter: <a href="http://twitter.com/manuelkiessling">@manuelkiessling</a>
