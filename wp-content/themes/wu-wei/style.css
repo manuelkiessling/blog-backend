@@ -274,10 +274,12 @@ h1 a: link, h1 a: visited {
 .post-info {
   float: left;
   width: 100%;
+  max-width: 580px;
   margin: 0 40px 0 0
 }
 .post-info.single {
   width: 100%;
+  max-width: 100%;
   margin: 0;
   margin-bottom: 24px;
 }
